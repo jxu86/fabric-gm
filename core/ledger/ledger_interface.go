@@ -17,9 +17,9 @@ import (
 	"github.com/hyperledger/fabric-protos-go/ledger/rwset"
 	"github.com/hyperledger/fabric-protos-go/ledger/rwset/kvrwset"
 	"github.com/hyperledger/fabric-protos-go/peer"
-	"github.com/hyperledger/fabric/bccsp"
-	commonledger "github.com/hyperledger/fabric/common/ledger"
-	"github.com/hyperledger/fabric/common/metrics"
+	"github.com/jxu86/fabric-gm/bccsp"
+	commonledger "github.com/jxu86/fabric-gm/common/ledger"
+	"github.com/jxu86/fabric-gm/common/metrics"
 )
 
 // Initializer encapsulates dependencies for PeerLedgerProvider

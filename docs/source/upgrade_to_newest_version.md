@@ -48,7 +48,7 @@ Follow the commands to upgrade a peer until the `docker run` command to launch t
 
 ```
 docker run --rm -v /opt/backup/$PEER_CONTAINER/:/var/hyperledger/production/ \
-            -v /opt/msp/:/etc/hyperledger/fabric/msp/ \
+            -v /opt/msp/:/etc/jxu86/fabric-gm/msp/ \
             --env-file ./env<name of node>.list \
             --name $PEER_CONTAINER \
             hyperledger/fabric-peer:2.0 peer node upgrade-dbs
@@ -60,7 +60,7 @@ Then issue this command to start the peer using the `2.0` tag:
 
 ```
 docker run -d -v /opt/backup/$PEER_CONTAINER/:/var/hyperledger/production/ \
-            -v /opt/msp/:/etc/hyperledger/fabric/msp/ \
+            -v /opt/msp/:/etc/jxu86/fabric-gm/msp/ \
             --env-file ./env<name of node>.list \
             --name $PEER_CONTAINER \
             hyperledger/fabric-peer:2.0 peer node start

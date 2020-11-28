@@ -19,7 +19,7 @@ import (
 	"crypto/sha256"
 	"errors"
 
-	"github.com/hyperledger/fabric/bccsp"
+	"github.com/jxu86/fabric-gm/bccsp"
 )
 //todo：国密：增加gm
 //定义国密 SM4 结构体，实现 bccsp Key 的接口

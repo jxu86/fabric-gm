@@ -7,10 +7,10 @@ SPDX-License-Identifier: Apache-2.0
 package follower_test
 
 import (
-	"github.com/hyperledger/fabric/orderer/common/types"
+	"github.com/jxu86/fabric-gm/orderer/common/types"
 	"testing"
 
-	"github.com/hyperledger/fabric/orderer/consensus/follower"
+	"github.com/jxu86/fabric-gm/orderer/consensus/follower"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 )

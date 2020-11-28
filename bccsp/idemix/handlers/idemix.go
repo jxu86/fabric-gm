@@ -7,7 +7,7 @@ package handlers
 
 import (
 	// "crypto/ecdsa"
-	"github.com/hyperledger/fabric/bccsp"
+	"github.com/jxu86/fabric-gm/bccsp"
 	"github.com/tjfoc/gmsm/sm2"
 )
 

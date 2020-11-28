@@ -96,4 +96,4 @@ from orderer nodes.
 Other improvements and fixes
 ----------------------------
 For the full list of improvements and fixes, refer to the release change log:
-https://github.com/hyperledger/fabric/blob/master/CHANGELOG.md#v120-rc1
+https://github.com/jxu86/fabric-gm/blob/master/CHANGELOG.md#v120-rc1

@@ -23,10 +23,10 @@ import (
 	"github.com/tjfoc/gmsm/sm2"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/common/tools/idemixgen/idemixca"
-	"github.com/hyperledger/fabric/common/tools/idemixgen/metadata"
-	"github.com/hyperledger/fabric/idemix"
-	"github.com/hyperledger/fabric/msp"
+	"github.com/jxu86/fabric-gm/common/tools/idemixgen/idemixca"
+	"github.com/jxu86/fabric-gm/common/tools/idemixgen/metadata"
+	"github.com/jxu86/fabric-gm/idemix"
+	"github.com/jxu86/fabric-gm/msp"
 	"github.com/pkg/errors"
 	"gopkg.in/alecthomas/kingpin.v2"
 )

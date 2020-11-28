@@ -12,7 +12,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/hyperledger/fabric/common/ledger/util/leveldbhelper"
+	"github.com/jxu86/fabric-gm/common/ledger/util/leveldbhelper"
 	"github.com/stretchr/testify/require"
 )
 

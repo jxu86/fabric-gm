@@ -16,12 +16,12 @@ import (
 	"time"
 
 	"github.com/hyperledger/fabric-protos-go/orderer"
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/common/util"
-	"github.com/hyperledger/fabric/internal/pkg/comm"
-	"github.com/hyperledger/fabric/internal/pkg/identity"
-	"github.com/hyperledger/fabric/internal/pkg/peer/blocksprovider"
-	"github.com/hyperledger/fabric/internal/pkg/peer/orderers"
+	"github.com/jxu86/fabric-gm/common/flogging"
+	"github.com/jxu86/fabric-gm/common/util"
+	"github.com/jxu86/fabric-gm/internal/pkg/comm"
+	"github.com/jxu86/fabric-gm/internal/pkg/identity"
+	"github.com/jxu86/fabric-gm/internal/pkg/peer/blocksprovider"
+	"github.com/jxu86/fabric-gm/internal/pkg/peer/orderers"
 	"google.golang.org/grpc"
 )
 

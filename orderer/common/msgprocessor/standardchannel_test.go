@@ -12,11 +12,11 @@ import (
 
 	cb "github.com/hyperledger/fabric-protos-go/common"
 	"github.com/hyperledger/fabric-protos-go/orderer"
-	"github.com/hyperledger/fabric/bccsp/sw"
-	"github.com/hyperledger/fabric/common/channelconfig"
-	"github.com/hyperledger/fabric/internal/pkg/identity"
-	"github.com/hyperledger/fabric/orderer/common/msgprocessor/mocks"
-	"github.com/hyperledger/fabric/protoutil"
+	"github.com/jxu86/fabric-gm/bccsp/sw"
+	"github.com/jxu86/fabric-gm/common/channelconfig"
+	"github.com/jxu86/fabric-gm/internal/pkg/identity"
+	"github.com/jxu86/fabric-gm/orderer/common/msgprocessor/mocks"
+	"github.com/jxu86/fabric-gm/protoutil"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -13,12 +13,12 @@ import (
 	"sync"
 
 	lb "github.com/hyperledger/fabric-protos-go/peer/lifecycle"
-	"github.com/hyperledger/fabric/common/chaincode"
-	"github.com/hyperledger/fabric/common/util"
-	"github.com/hyperledger/fabric/core/chaincode/persistence"
-	"github.com/hyperledger/fabric/core/container/externalbuilder"
-	"github.com/hyperledger/fabric/core/ledger"
-	"github.com/hyperledger/fabric/protoutil"
+	"github.com/jxu86/fabric-gm/common/chaincode"
+	"github.com/jxu86/fabric-gm/common/util"
+	"github.com/jxu86/fabric-gm/core/chaincode/persistence"
+	"github.com/jxu86/fabric-gm/core/container/externalbuilder"
+	"github.com/jxu86/fabric-gm/core/ledger"
+	"github.com/jxu86/fabric-gm/protoutil"
 
 	"github.com/pkg/errors"
 )

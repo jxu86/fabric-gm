@@ -3,7 +3,7 @@
 package mocks
 
 import (
-	cclifecycle "github.com/hyperledger/fabric/core/cclifecycle"
+	cclifecycle "github.com/jxu86/fabric-gm/core/cclifecycle"
 	mock "github.com/stretchr/testify/mock"
 )
 

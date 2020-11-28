@@ -11,11 +11,11 @@ import (
 
 	"github.com/hyperledger/fabric-protos-go/common"
 	"github.com/hyperledger/fabric-protos-go/peer"
-	commonerrors "github.com/hyperledger/fabric/common/errors"
-	validation "github.com/hyperledger/fabric/core/handlers/validation/api/policies"
-	"github.com/hyperledger/fabric/core/ledger"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/rwsetutil"
-	"github.com/hyperledger/fabric/protoutil"
+	commonerrors "github.com/jxu86/fabric-gm/common/errors"
+	validation "github.com/jxu86/fabric-gm/core/handlers/validation/api/policies"
+	"github.com/jxu86/fabric-gm/core/ledger"
+	"github.com/jxu86/fabric-gm/core/ledger/kvledger/txmgmt/rwsetutil"
+	"github.com/jxu86/fabric-gm/protoutil"
 	"github.com/pkg/errors"
 )
 

@@ -36,9 +36,9 @@ CORE_PEER_TLS_ENABLED=true
 CORE_PEER_GOSSIP_USELEADERELECTION=true
 CORE_PEER_GOSSIP_ORGLEADER=false
 CORE_PEER_PROFILE_ENABLED=true
-CORE_PEER_TLS_CERT_FILE=/etc/hyperledger/fabric/tls/server.crt
-CORE_PEER_TLS_KEY_FILE=/etc/hyperledger/fabric/tls/server.key
-CORE_PEER_TLS_ROOTCERT_FILE=/etc/hyperledger/fabric/tls/ca.crt
+CORE_PEER_TLS_CERT_FILE=/etc/jxu86/fabric-gm/tls/server.crt
+CORE_PEER_TLS_KEY_FILE=/etc/jxu86/fabric-gm/tls/server.key
+CORE_PEER_TLS_ROOTCERT_FILE=/etc/jxu86/fabric-gm/tls/ca.crt
 CORE_PEER_ID=peer0.org1.example.com
 CORE_PEER_ADDRESS=peer0.org1.example.com:7051
 CORE_PEER_LISTENADDRESS=0.0.0.0:7051
@@ -125,7 +125,7 @@ Then you can launch the new ordering node container by issuing:
 
 ```
 docker run -d -v /opt/backup/$ORDERER_CONTAINER/:/var/hyperledger/production/orderer/ \
-            -v /opt/msp/:/etc/hyperledger/fabric/msp/ \
+            -v /opt/msp/:/etc/jxu86/fabric-gm/msp/ \
             --env-file ./env<name of node>.list \
             --name $ORDERER_CONTAINER \
             hyperledger/fabric-orderer:$IMAGE_TAG orderer
@@ -193,7 +193,7 @@ Then you can launch the new peer container by issuing:
 
 ```
 docker run -d -v /opt/backup/$PEER_CONTAINER/:/var/hyperledger/production/ \
-            -v /opt/msp/:/etc/hyperledger/fabric/msp/ \
+            -v /opt/msp/:/etc/jxu86/fabric-gm/msp/ \
             --env-file ./env<name of node>.list \
             --name $PEER_CONTAINER \
             hyperledger/fabric-peer:$IMAGE_TAG peer node start

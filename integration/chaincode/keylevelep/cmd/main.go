@@ -11,7 +11,7 @@ import (
 	"os"
 
 	"github.com/hyperledger/fabric-chaincode-go/shim"
-	"github.com/hyperledger/fabric/integration/chaincode/keylevelep"
+	"github.com/jxu86/fabric-gm/integration/chaincode/keylevelep"
 )
 
 func main() {

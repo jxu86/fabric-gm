@@ -16,12 +16,12 @@ import (
 
 	"github.com/golang/protobuf/proto"
 	pb "github.com/hyperledger/fabric-protos-go/peer"
-	"github.com/hyperledger/fabric/bccsp"
-	"github.com/hyperledger/fabric/bccsp/factory"
-	"github.com/hyperledger/fabric/common/chaincode"
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/core/common/privdata"
-	"github.com/hyperledger/fabric/core/ledger"
+	"github.com/jxu86/fabric-gm/bccsp"
+	"github.com/jxu86/fabric-gm/bccsp/factory"
+	"github.com/jxu86/fabric-gm/common/chaincode"
+	"github.com/jxu86/fabric-gm/common/flogging"
+	"github.com/jxu86/fabric-gm/core/common/privdata"
+	"github.com/jxu86/fabric-gm/core/ledger"
 	"github.com/pkg/errors"
 )
 

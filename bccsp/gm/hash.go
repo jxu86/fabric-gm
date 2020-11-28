@@ -18,7 +18,7 @@ package gm
 import (
 	"hash"
 
-	"github.com/hyperledger/fabric/bccsp"
+	"github.com/jxu86/fabric-gm/bccsp"
 )
 //todo：国密：增加gm
 //定义hasher 结构体，实现内部的一个 Hasher 接口

@@ -3,7 +3,7 @@
 package mocks
 
 import (
-	multichannel "github.com/hyperledger/fabric/orderer/common/multichannel"
+	multichannel "github.com/jxu86/fabric-gm/orderer/common/multichannel"
 	mock "github.com/stretchr/testify/mock"
 )
 

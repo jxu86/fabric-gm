@@ -10,10 +10,10 @@ import (
 	"testing"
 
 	"github.com/hyperledger/fabric-protos-go/peer"
-	"github.com/hyperledger/fabric/common/policydsl"
-	"github.com/hyperledger/fabric/core/common/privdata/mock"
-	"github.com/hyperledger/fabric/core/ledger"
-	"github.com/hyperledger/fabric/protoutil"
+	"github.com/jxu86/fabric-gm/common/policydsl"
+	"github.com/jxu86/fabric-gm/core/common/privdata/mock"
+	"github.com/jxu86/fabric-gm/core/ledger"
+	"github.com/jxu86/fabric-gm/protoutil"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 )

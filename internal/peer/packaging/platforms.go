@@ -9,10 +9,10 @@ package packaging
 import (
 	"fmt"
 
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/core/chaincode/platforms/golang"
-	"github.com/hyperledger/fabric/core/chaincode/platforms/java"
-	"github.com/hyperledger/fabric/core/chaincode/platforms/node"
+	"github.com/jxu86/fabric-gm/common/flogging"
+	"github.com/jxu86/fabric-gm/core/chaincode/platforms/golang"
+	"github.com/jxu86/fabric-gm/core/chaincode/platforms/java"
+	"github.com/jxu86/fabric-gm/core/chaincode/platforms/node"
 )
 
 // SupportedPlatforms is the canonical list of platforms Fabric supports

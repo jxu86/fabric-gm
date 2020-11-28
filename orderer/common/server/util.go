@@ -9,10 +9,10 @@ package server
 import (
 	"io/ioutil"
 
-	"github.com/hyperledger/fabric/common/ledger/blockledger"
-	"github.com/hyperledger/fabric/common/ledger/blockledger/fileledger"
-	"github.com/hyperledger/fabric/common/metrics"
-	config "github.com/hyperledger/fabric/orderer/common/localconfig"
+	"github.com/jxu86/fabric-gm/common/ledger/blockledger"
+	"github.com/jxu86/fabric-gm/common/ledger/blockledger/fileledger"
+	"github.com/jxu86/fabric-gm/common/metrics"
+	config "github.com/jxu86/fabric-gm/orderer/common/localconfig"
 	"github.com/pkg/errors"
 )
 

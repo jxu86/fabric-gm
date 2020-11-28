@@ -9,7 +9,7 @@ package platforms_test
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric/core/chaincode/platforms"
+	"github.com/jxu86/fabric-gm/core/chaincode/platforms"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

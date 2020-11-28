@@ -15,9 +15,9 @@ import (
 	"time"
 
 	cb "github.com/hyperledger/fabric-protos-go/common"
-	"github.com/hyperledger/fabric/gossip/api"
-	"github.com/hyperledger/fabric/gossip/common"
-	"github.com/hyperledger/fabric/gossip/util"
+	"github.com/jxu86/fabric-gm/gossip/api"
+	"github.com/jxu86/fabric-gm/gossip/common"
+	"github.com/jxu86/fabric-gm/gossip/util"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 )

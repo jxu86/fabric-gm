@@ -86,7 +86,7 @@ organizations:
     mspid: Org1MSP
 
     # This org's MSP store (absolute path or relative to client.cryptoconfig)
-    cryptoPath:  /opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp
+    cryptoPath:  /opt/gopath/src/github.com/jxu86/fabric-gm/peer/crypto/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp
 
     peers:
       - peer0.org1.example.com
@@ -100,7 +100,7 @@ organizations:
     mspid: Org2MSP
 
     # This org's MSP store (absolute path or relative to client.cryptoconfig)
-    cryptoPath:  /opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org2.example.com/users/Admin@org2.example.com/msp
+    cryptoPath:  /opt/gopath/src/github.com/jxu86/fabric-gm/peer/crypto/peerOrganizations/org2.example.com/users/Admin@org2.example.com/msp
 
     peers:
       - peer0.org2.example.com
@@ -139,7 +139,7 @@ orderers:
 
     tlsCACerts:
       # Certificate location absolute path
-      path: /opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/ordererOrganizations/example.com/tlsca/tlsca.example.com-cert.pem
+      path: /opt/gopath/src/github.com/jxu86/fabric-gm/peer/crypto/ordererOrganizations/example.com/tlsca/tlsca.example.com-cert.pem
 
 #
 # List of peers to send various requests to, including endorsement, query
@@ -164,7 +164,7 @@ peers:
 
     tlsCACerts:
       # Certificate location absolute path
-      path: /opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/tlsca/tlsca.org1.example.com-cert.pem
+      path: /opt/gopath/src/github.com/jxu86/fabric-gm/peer/crypto/peerOrganizations/org1.example.com/tlsca/tlsca.org1.example.com-cert.pem
 
   # peer0.org2.example.com:
   #   url: peer0.org2.example.com:7051
@@ -181,4 +181,4 @@ peers:
   #     allow-insecure: false
 
   #     tlsCACerts:
-  #       path: /opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org2.example.com/tlsca/tlsca.org2.example.com-cert.pem
+  #       path: /opt/gopath/src/github.com/jxu86/fabric-gm/peer/crypto/peerOrganizations/org2.example.com/tlsca/tlsca.org2.example.com-cert.pem

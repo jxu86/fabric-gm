@@ -10,11 +10,11 @@ import (
 	"bytes"
 
 	"github.com/hyperledger/fabric-protos-go/ledger/rwset"
-	"github.com/hyperledger/fabric/common/ledger/blkstorage"
-	"github.com/hyperledger/fabric/common/util"
-	"github.com/hyperledger/fabric/core/ledger"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/rwsetutil"
-	"github.com/hyperledger/fabric/protoutil"
+	"github.com/jxu86/fabric-gm/common/ledger/blkstorage"
+	"github.com/jxu86/fabric-gm/common/util"
+	"github.com/jxu86/fabric-gm/core/ledger"
+	"github.com/jxu86/fabric-gm/core/ledger/kvledger/txmgmt/rwsetutil"
+	"github.com/jxu86/fabric-gm/protoutil"
 )
 
 // constructValidAndInvalidPvtData computes the valid pvt data and hash mismatch list

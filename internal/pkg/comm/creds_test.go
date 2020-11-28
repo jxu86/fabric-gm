@@ -16,8 +16,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/hyperledger/fabric/common/flogging/floggingtest"
-	"github.com/hyperledger/fabric/internal/pkg/comm"
+	"github.com/jxu86/fabric-gm/common/flogging/floggingtest"
+	"github.com/jxu86/fabric-gm/internal/pkg/comm"
 	"github.com/stretchr/testify/assert"
 )
 

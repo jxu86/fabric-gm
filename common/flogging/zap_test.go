@@ -12,9 +12,9 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/common/flogging/fabenc"
-	"github.com/hyperledger/fabric/common/flogging/mock"
+	"github.com/jxu86/fabric-gm/common/flogging"
+	"github.com/jxu86/fabric-gm/common/flogging/fabenc"
+	"github.com/jxu86/fabric-gm/common/flogging/mock"
 	"github.com/stretchr/testify/assert"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"

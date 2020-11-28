@@ -52,7 +52,7 @@ crypto service provider. You can find an example `bccsp` section below:
 bccsp:
   default: PKCS11
   pkcs11:
-    Library: /etc/hyperledger/fabric/libsofthsm2.so
+    Library: /etc/jxu86/fabric-gm/libsofthsm2.so
     Pin: "71811222"
     Label: fabric
     hash: SHA2
@@ -66,7 +66,7 @@ You can also use environment variables to override the relevant fields of the co
 
 ```
 FABRIC_CA_SERVER_BCCSP_DEFAULT=PKCS11
-FABRIC_CA_SERVER_BCCSP_PKCS11_LIBRARY=/etc/hyperledger/fabric/libsofthsm2.so
+FABRIC_CA_SERVER_BCCSP_PKCS11_LIBRARY=/etc/jxu86/fabric-gm/libsofthsm2.so
 FABRIC_CA_SERVER_BCCSP_PKCS11_PIN=71811222
 FABRIC_CA_SERVER_BCCSP_PKCS11_LABEL=fabric
 ```
@@ -75,7 +75,7 @@ If you are connecting to softhsm2 using the Fabric peer, you could set the follo
 
 ```
 CORE_PEER_BCCSP_DEFAULT=PKCS11
-CORE_PEER_BCCSP_PKCS11_LIBRARY=/etc/hyperledger/fabric/libsofthsm2.so
+CORE_PEER_BCCSP_PKCS11_LIBRARY=/etc/jxu86/fabric-gm/libsofthsm2.so
 CORE_PEER_BCCSP_PKCS11_PIN=71811222
 CORE_PEER_BCCSP_PKCS11_LABEL=fabric
 ```
@@ -84,7 +84,7 @@ If you are connecting to softhsm2 using the Fabric orderer, you could set the fo
 
 ```
 ORDERER_GENERAL_BCCSP_DEFAULT=PKCS11
-ORDERER_GENERAL_BCCSP_PKCS11_LIBRARY=/etc/hyperledger/fabric/libsofthsm2.so
+ORDERER_GENERAL_BCCSP_PKCS11_LIBRARY=/etc/jxu86/fabric-gm/libsofthsm2.so
 ORDERER_GENERAL_BCCSP_PKCS11_PIN=71811222
 ORDERER_GENERAL_BCCSP_PKCS11_LABEL=fabric
 ```
@@ -96,10 +96,10 @@ would add the following environment and volumes variables to your docker compose
 file:
 ```
   environment:
-     - SOFTHSM2_CONF=/etc/hyperledger/fabric/config.file
+     - SOFTHSM2_CONF=/etc/jxu86/fabric-gm/config.file
   volumes:
-     - /home/softhsm/config.file:/etc/hyperledger/fabric/config.file
-     - /usr/local/Cellar/softhsm/2.1.0/lib/softhsm/libsofthsm2.so:/etc/hyperledger/fabric/libsofthsm2.so
+     - /home/softhsm/config.file:/etc/jxu86/fabric-gm/config.file
+     - /usr/local/Cellar/softhsm/2.1.0/lib/softhsm/libsofthsm2.so:/etc/jxu86/fabric-gm/libsofthsm2.so
 ```
 
 ## Setting up a network using HSM
@@ -133,7 +133,7 @@ You can set up a Fabric CA to use an HSM by making the same edits to the CA serv
   bccsp:
     default: PKCS11
     pkcs11:
-      Library: /etc/hyperledger/fabric/libsofthsm2.so
+      Library: /etc/jxu86/fabric-gm/libsofthsm2.so
       Pin: "71811222"
       Label: fabric
       hash: SHA2

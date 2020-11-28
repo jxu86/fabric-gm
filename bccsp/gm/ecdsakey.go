@@ -23,7 +23,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/hyperledger/fabric/bccsp"
+	"github.com/jxu86/fabric-gm/bccsp"
 )
 //todo：国密：增加gm
 type ecdsaPrivateKey struct {

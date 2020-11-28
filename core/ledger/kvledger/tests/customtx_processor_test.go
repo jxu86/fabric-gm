@@ -12,10 +12,10 @@ import (
 
 	"github.com/hyperledger/fabric-protos-go/common"
 	protopeer "github.com/hyperledger/fabric-protos-go/peer"
-	"github.com/hyperledger/fabric/bccsp/sw"
-	"github.com/hyperledger/fabric/core/ledger"
-	"github.com/hyperledger/fabric/core/ledger/ledgermgmt"
-	"github.com/hyperledger/fabric/core/ledger/mock"
+	"github.com/jxu86/fabric-gm/bccsp/sw"
+	"github.com/jxu86/fabric-gm/core/ledger"
+	"github.com/jxu86/fabric-gm/core/ledger/ledgermgmt"
+	"github.com/jxu86/fabric-gm/core/ledger/mock"
 	"github.com/stretchr/testify/assert"
 )
 

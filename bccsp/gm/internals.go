@@ -18,7 +18,7 @@ package gm
 import (
 	"hash"
 
-	"github.com/hyperledger/fabric/bccsp"
+	"github.com/jxu86/fabric-gm/bccsp"
 )
 //todo：国密：增加gm
 // KeyGenerator is a BCCSP-like interface that provides key generation algorithms

@@ -86,13 +86,13 @@ in ``core.yaml``:
             name: DefaultEndorsement
           custom:
             name: customEndorsement
-            library: /etc/hyperledger/fabric/plugins/customEndorsement.so
+            library: /etc/jxu86/fabric-gm/plugins/customEndorsement.so
         validators:
           vscc:
             name: DefaultValidation
           custom:
             name: customValidation
-            library: /etc/hyperledger/fabric/plugins/customValidation.so
+            library: /etc/jxu86/fabric-gm/plugins/customValidation.so
 
 And we'd have to place the ``.so`` plugin files in the peer's local file system.
 

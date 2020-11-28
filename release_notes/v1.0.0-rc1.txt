@@ -25,4 +25,4 @@ Known Issues & Workarounds
 
 Change Log
 ----------
-https://github.com/hyperledger/fabric/blob/master/CHANGELOG.md#v100-rc1
+https://github.com/jxu86/fabric-gm/blob/master/CHANGELOG.md#v100-rc1

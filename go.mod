@@ -1,4 +1,4 @@
-module github.com/hyperledger/fabric
+module github.com/jxu86/fabric-gm
 
 go 1.14
 

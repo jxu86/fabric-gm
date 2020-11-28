@@ -67,4 +67,4 @@ Updated to Go version 1.10.4
 Updated baseimage version to 0.4.12
 
 For the full list of improvements and fixes, refer to the release change log:
-https://github.com/hyperledger/fabric/blob/master/CHANGELOG.md#v130-rc1
+https://github.com/jxu86/fabric-gm/blob/master/CHANGELOG.md#v130-rc1

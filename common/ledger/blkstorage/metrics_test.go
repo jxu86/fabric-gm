@@ -10,9 +10,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hyperledger/fabric/common/ledger/testutil"
-	"github.com/hyperledger/fabric/common/metrics"
-	"github.com/hyperledger/fabric/common/metrics/metricsfakes"
+	"github.com/jxu86/fabric-gm/common/ledger/testutil"
+	"github.com/jxu86/fabric-gm/common/metrics"
+	"github.com/jxu86/fabric-gm/common/metrics/metricsfakes"
 	"github.com/stretchr/testify/require"
 )
 

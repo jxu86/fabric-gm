@@ -10,7 +10,7 @@ services:
     image: hyperledger/fabric-tools:1.4
     tty: true
     stdin_open: true
-    working_dir: /opt/gopath/src/github.com/hyperledger/fabric/peer
+    working_dir: /opt/gopath/src/github.com/jxu86/fabric-gm/peer
     command: /bin/bash
     volumes:
         - /var/run/:/host/var/run/

@@ -19,8 +19,8 @@ package mgmt
 import (
 	"github.com/golang/protobuf/proto"
 	mspproto "github.com/hyperledger/fabric-protos-go/msp"
-	"github.com/hyperledger/fabric/bccsp"
-	"github.com/hyperledger/fabric/msp"
+	"github.com/jxu86/fabric-gm/bccsp"
+	"github.com/jxu86/fabric-gm/msp"
 	"github.com/pkg/errors"
 )
 

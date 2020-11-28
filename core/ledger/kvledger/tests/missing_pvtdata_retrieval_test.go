@@ -10,11 +10,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hyperledger/fabric/bccsp/sw"
-	"github.com/hyperledger/fabric/core/container/externalbuilder"
-	"github.com/hyperledger/fabric/core/ledger"
-	"github.com/hyperledger/fabric/core/ledger/kvledger"
-	"github.com/hyperledger/fabric/core/ledger/ledgermgmt"
+	"github.com/jxu86/fabric-gm/bccsp/sw"
+	"github.com/jxu86/fabric-gm/core/container/externalbuilder"
+	"github.com/jxu86/fabric-gm/core/ledger"
+	"github.com/jxu86/fabric-gm/core/ledger/kvledger"
+	"github.com/jxu86/fabric-gm/core/ledger/ledgermgmt"
 	"github.com/stretchr/testify/require"
 )
 

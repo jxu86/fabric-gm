@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hyperledger/fabric/core/ledger"
+	"github.com/jxu86/fabric-gm/core/ledger"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"
 )

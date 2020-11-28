@@ -12,7 +12,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/hyperledger/fabric/bccsp/pkcs11"
+	"github.com/jxu86/fabric-gm/bccsp/pkcs11"
 	"github.com/stretchr/testify/assert"
 )
 

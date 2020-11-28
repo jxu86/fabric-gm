@@ -36,7 +36,7 @@ Documentation of the Fabric Contract API for different languages can be found at
 
   - `Go <https://godoc.org/github.com/hyperledger/fabric-contract-api-go/contractapi>`__
   - `Node.js <https://hyperledger.github.io/fabric-chaincode-node/{BRANCH}/api/>`__
-  - `Java <https://hyperledger.github.io/fabric-chaincode-java/{BRANCH}/api/org/hyperledger/fabric/contract/package-summary.html>`__
+  - `Java <https://hyperledger.github.io/fabric-chaincode-java/{BRANCH}/api/org/jxu86/fabric-gm/contract/package-summary.html>`__
 
 
 Note that when using the contract api, each chaincode function that is called is passed a transaction context "ctx", from which
@@ -45,7 +45,7 @@ to update the ledger (e.g. PutState() ). You can learn more at the language-spec
 
   - `Go <https://godoc.org/github.com/hyperledger/fabric-chaincode-go/shim#Chaincode>`__
   - `Node.js <https://hyperledger.github.io/fabric-chaincode-node/{BRANCH}/api/fabric-shim.ChaincodeInterface.html>`__
-  - `Java <https://hyperledger.github.io/fabric-chaincode-java/{BRANCH}/api/org/hyperledger/fabric/shim/Chaincode.html>`__
+  - `Java <https://hyperledger.github.io/fabric-chaincode-java/{BRANCH}/api/org/jxu86/fabric-gm/shim/Chaincode.html>`__
 
 
 In this tutorial using Go chaincode, we will demonstrate the use of these APIs

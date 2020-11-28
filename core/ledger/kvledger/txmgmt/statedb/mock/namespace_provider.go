@@ -4,7 +4,7 @@ package mock
 import (
 	"sync"
 
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/statedb"
+	"github.com/jxu86/fabric-gm/core/ledger/kvledger/txmgmt/statedb"
 )
 
 type NamespaceProvider struct {

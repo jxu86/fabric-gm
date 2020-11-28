@@ -11,15 +11,15 @@ source ./common.sh
 # This shell script contains two functions that can be invoked to execute specific tests
 #
 # runInsertTxs - This function sets the environment variables and runs the benchmark function
-# 'BenchmarkInsertTxs' in package 'github.com/hyperledger/fabric/core/ledger/kvledger/benchmark/experiments'
+# 'BenchmarkInsertTxs' in package 'github.com/jxu86/fabric-gm/core/ledger/kvledger/benchmark/experiments'
 #
 # runReadWriteTxs - This function sets the environment variables and runs the benchmark function
-# 'BenchmarkReadWriteTxs' in package 'github.com/hyperledger/fabric/core/ledger/kvledger/benchmark/experiments'
+# 'BenchmarkReadWriteTxs' in package 'github.com/jxu86/fabric-gm/core/ledger/kvledger/benchmark/experiments'
 #
 # For the details of test specific parameters, refer to the documentation in 'go' files for the tests
 #######################################################################################################
 
-PKG_NAME="github.com/hyperledger/fabric/core/ledger/kvledger/benchmark/experiments"
+PKG_NAME="github.com/jxu86/fabric-gm/core/ledger/kvledger/benchmark/experiments"
 
 function setCommonTestParams {
   TEST_PARAMS="-DataDir=$DataDir, -NumChains=$NumChains, -NumParallelTxPerChain=$NumParallelTxPerChain, -NumWritesPerTx=$NumWritesPerTx, -NumReadsPerTx=$NumReadsPerTx, -BatchSize=$BatchSize, -NumKVs=$NumKVs, -KVSize=$KVSize, -UseJSONFormat=$UseJSONFormat"

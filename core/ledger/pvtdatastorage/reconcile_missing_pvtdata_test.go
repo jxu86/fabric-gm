@@ -10,8 +10,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/hyperledger/fabric/core/ledger"
-	btltestutil "github.com/hyperledger/fabric/core/ledger/pvtdatapolicy/testutil"
+	"github.com/jxu86/fabric-gm/core/ledger"
+	btltestutil "github.com/jxu86/fabric-gm/core/ledger/pvtdatapolicy/testutil"
 	"github.com/stretchr/testify/require"
 	"github.com/willf/bitset"
 )

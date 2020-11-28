@@ -23,11 +23,11 @@ import (
 
 	docker "github.com/fsouza/go-dockerclient"
 	pb "github.com/hyperledger/fabric-protos-go/peer"
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/common/util"
-	"github.com/hyperledger/fabric/core/chaincode/persistence"
-	"github.com/hyperledger/fabric/core/container"
-	"github.com/hyperledger/fabric/core/container/ccintf"
+	"github.com/jxu86/fabric-gm/common/flogging"
+	"github.com/jxu86/fabric-gm/common/util"
+	"github.com/jxu86/fabric-gm/core/chaincode/persistence"
+	"github.com/jxu86/fabric-gm/core/container"
+	"github.com/jxu86/fabric-gm/core/container/ccintf"
 	"github.com/pkg/errors"
 )
 
@@ -241,11 +241,11 @@ func (vm *DockerVM) GetArgs(ccType string, peerAddress string) ([]string, error)
 
 const (
 	// Mutual TLS auth client key and cert paths in the chaincode container
-	TLSClientKeyPath      string = "/etc/hyperledger/fabric/client.key"
-	TLSClientCertPath     string = "/etc/hyperledger/fabric/client.crt"
-	TLSClientKeyFile      string = "/etc/hyperledger/fabric/client_pem.key"
-	TLSClientCertFile     string = "/etc/hyperledger/fabric/client_pem.crt"
-	TLSClientRootCertFile string = "/etc/hyperledger/fabric/peer.crt"
+	TLSClientKeyPath      string = "/etc/jxu86/fabric-gm/client.key"
+	TLSClientCertPath     string = "/etc/jxu86/fabric-gm/client.crt"
+	TLSClientKeyFile      string = "/etc/jxu86/fabric-gm/client_pem.key"
+	TLSClientCertFile     string = "/etc/jxu86/fabric-gm/client_pem.crt"
+	TLSClientRootCertFile string = "/etc/jxu86/fabric-gm/peer.crt"
 )
 
 func (vm *DockerVM) GetEnv(ccid string, tlsConfig *ccintf.TLSConfig) []string {

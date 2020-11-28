@@ -9,7 +9,7 @@ package chaincode_test
 import (
 	"time"
 
-	"github.com/hyperledger/fabric/core/chaincode"
+	"github.com/jxu86/fabric-gm/core/chaincode"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	"github.com/spf13/viper"

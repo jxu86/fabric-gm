@@ -10,8 +10,8 @@ import (
 	"testing"
 
 	proto "github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/core/ledger/internal/version"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/privacyenabledstate"
+	"github.com/jxu86/fabric-gm/core/ledger/internal/version"
+	"github.com/jxu86/fabric-gm/core/ledger/kvledger/txmgmt/privacyenabledstate"
 	"github.com/stretchr/testify/require"
 )
 

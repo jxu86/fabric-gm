@@ -14,8 +14,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/hyperledger/fabric/core/chaincode/persistence"
-	"github.com/hyperledger/fabric/internal/peer/packaging"
+	"github.com/jxu86/fabric-gm/core/chaincode/persistence"
+	"github.com/jxu86/fabric-gm/internal/peer/packaging"
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 )

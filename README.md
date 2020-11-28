@@ -3,7 +3,7 @@
 [rocketchat-url]: https://chat.hyperledger.org/channel/fabric
 [rocketchat-image]: https://open.rocket.chat/images/join-chat.svg
 
-[![Build Status](https://dev.azure.com/Hyperledger/Fabric/_apis/build/status/Merge?branchName=master)](https://dev.azure.com/Hyperledger/Fabric/_build/latest?definitionId=51&branchName=master)
+[![Build Status](https://dev.azure.com/jxu86/fabric-gm/_apis/build/status/Merge?branchName=master)](https://dev.azure.com/jxu86/fabric-gm/_build/latest?definitionId=51&branchName=master)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/955/badge)](https://bestpractices.coreinfrastructure.org/projects/955)
 [![Go Report Card](https://goreportcard.com/badge/github.com/hyperledger/fabric)](https://goreportcard.com/report/github.com/hyperledger/fabric)
 [![GoDoc](https://godoc.org/github.com/hyperledger/fabric?status.svg)](https://godoc.org/github.com/hyperledger/fabric)
@@ -24,7 +24,7 @@ open source architecture; Hyperledger Fabric is your starting point.
 
 ## Releases
 
-Fabric releases and release notes can be found on the [GitHub releases page](https://github.com/hyperledger/fabric/releases).
+Fabric releases and release notes can be found on the [GitHub releases page](https://github.com/jxu86/fabric-gm/releases).
 
 Please visit the [Hyperledger Fabric Jira dashboard](https://jira.hyperledger.org/secure/Dashboard.jspa?selectPageId=10104) for our release roadmap.
 We plan on a quarterly release cadence, delivering on a scoped set of themes and select features.

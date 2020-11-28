@@ -15,11 +15,11 @@ import (
 	"github.com/hyperledger/fabric-protos-go/discovery"
 	"github.com/hyperledger/fabric-protos-go/msp"
 	"github.com/hyperledger/fabric-protos-go/peer"
-	"github.com/hyperledger/fabric/common/policies"
-	"github.com/hyperledger/fabric/gossip/api"
-	gcommon "github.com/hyperledger/fabric/gossip/common"
-	disc "github.com/hyperledger/fabric/gossip/discovery"
-	"github.com/hyperledger/fabric/protoutil"
+	"github.com/jxu86/fabric-gm/common/policies"
+	"github.com/jxu86/fabric-gm/gossip/api"
+	gcommon "github.com/jxu86/fabric-gm/gossip/common"
+	disc "github.com/jxu86/fabric-gm/gossip/discovery"
+	"github.com/jxu86/fabric-gm/protoutil"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -22,7 +22,7 @@ Building off of the [Creating a channel tutorial](create_channel.html), we will 
 cd fabric-samples/test-network
 ```
 
-The `configtx.yaml` file used by the test network is located in the `configtx` folder. Open the file in a text editor. You can refer back to this file as the tutorial goes through each section. You can find a more detailed version of the `configtx.yaml` file in the [Fabric sample configuration](https://github.com/hyperledger/fabric/blob/{BRANCH}/sampleconfig/configtx.yaml).
+The `configtx.yaml` file used by the test network is located in the `configtx` folder. Open the file in a text editor. You can refer back to this file as the tutorial goes through each section. You can find a more detailed version of the `configtx.yaml` file in the [Fabric sample configuration](https://github.com/jxu86/fabric-gm/blob/{BRANCH}/sampleconfig/configtx.yaml).
 
 ## Organizations
 

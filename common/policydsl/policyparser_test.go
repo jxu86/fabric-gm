@@ -12,7 +12,7 @@ import (
 
 	"github.com/hyperledger/fabric-protos-go/common"
 	"github.com/hyperledger/fabric-protos-go/msp"
-	"github.com/hyperledger/fabric/protoutil"
+	"github.com/jxu86/fabric-gm/protoutil"
 	"github.com/stretchr/testify/assert"
 )
 

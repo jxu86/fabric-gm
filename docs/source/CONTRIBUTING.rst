@@ -118,7 +118,7 @@ approved.
 Maintainers
 ~~~~~~~~~~~
 
-The Fabric project is lead by the project's top level `maintainers <https://github.com/hyperledger/fabric/blob/master/MAINTAINERS.md>`__.
+The Fabric project is lead by the project's top level `maintainers <https://github.com/jxu86/fabric-gm/blob/master/MAINTAINERS.md>`__.
 The maintainers are responsible for reviewing and merging all patches submitted
 for review, and they guide the overall technical direction of the project within
 the guidelines established by the Hyperledger Technical Steering Committee (TSC).
@@ -134,7 +134,7 @@ adding a maintainer, based on the following criteria:
 - Demonstrated shepherding of project work and contributors
 
 An existing maintainer can submit a pull request to the
-`maintainers <https://github.com/hyperledger/fabric/blob/master/MAINTAINERS.md>`__ file.
+`maintainers <https://github.com/jxu86/fabric-gm/blob/master/MAINTAINERS.md>`__ file.
 A nominated Contributor may become a Maintainer by a majority approval of the proposal
 by the existing Maintainers. Once approved, the change set is then merged
 and the individual is added to the maintainers group.
@@ -302,7 +302,7 @@ result, maintainers will be able to process PRs faster and everybody
 will gain from it.
 
 Just browse through `the open PRs on GitHub
-<https://github.com/hyperledger/fabric/pulls>`__ to get started.
+<https://github.com/jxu86/fabric-gm/pulls>`__ to get started.
 
 PR Aging
 ~~~~~~~~
@@ -418,12 +418,12 @@ Legal stuff
 
 **Note:** Each source file must include a license header for the Apache
 Software License 2.0. See the template of the `license header
-<https://github.com/hyperledger/fabric/blob/master/docs/source/dev-setup/headers.txt>`__.
+<https://github.com/jxu86/fabric-gm/blob/master/docs/source/dev-setup/headers.txt>`__.
 
 We have tried to make it as easy as possible to make contributions. This
 applies to how we handle the legal aspects of contribution. We use the
 same approach—the `Developer's Certificate of Origin 1.1
-(DCO) <https://github.com/hyperledger/fabric/blob/master/docs/source/DCO1.1.txt>`__—that the Linux® Kernel
+(DCO) <https://github.com/jxu86/fabric-gm/blob/master/docs/source/DCO1.1.txt>`__—that the Linux® Kernel
 `community <https://elinux.org/Developer_Certificate_Of_Origin>`__ uses
 to manage code contributions.
 

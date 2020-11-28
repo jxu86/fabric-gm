@@ -15,13 +15,13 @@ import (
 	"testing"
 
 	"github.com/hyperledger/fabric-protos-go/ledger/queryresult"
-	"github.com/hyperledger/fabric/common/ledger/testutil"
-	"github.com/hyperledger/fabric/core/ledger"
-	"github.com/hyperledger/fabric/core/ledger/internal/version"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/privacyenabledstate"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/rwsetutil"
-	btltestutil "github.com/hyperledger/fabric/core/ledger/pvtdatapolicy/testutil"
-	"github.com/hyperledger/fabric/core/ledger/util"
+	"github.com/jxu86/fabric-gm/common/ledger/testutil"
+	"github.com/jxu86/fabric-gm/core/ledger"
+	"github.com/jxu86/fabric-gm/core/ledger/internal/version"
+	"github.com/jxu86/fabric-gm/core/ledger/kvledger/txmgmt/privacyenabledstate"
+	"github.com/jxu86/fabric-gm/core/ledger/kvledger/txmgmt/rwsetutil"
+	btltestutil "github.com/jxu86/fabric-gm/core/ledger/pvtdatapolicy/testutil"
+	"github.com/jxu86/fabric-gm/core/ledger/util"
 	"github.com/stretchr/testify/require"
 )
 

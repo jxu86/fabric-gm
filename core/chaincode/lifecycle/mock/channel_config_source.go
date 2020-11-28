@@ -4,8 +4,8 @@ package mock
 import (
 	"sync"
 
-	"github.com/hyperledger/fabric/common/channelconfig"
-	"github.com/hyperledger/fabric/core/chaincode/lifecycle"
+	"github.com/jxu86/fabric-gm/common/channelconfig"
+	"github.com/jxu86/fabric-gm/core/chaincode/lifecycle"
 )
 
 type ChannelConfigSource struct {

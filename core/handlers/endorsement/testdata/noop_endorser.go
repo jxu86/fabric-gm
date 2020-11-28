@@ -8,7 +8,7 @@ package main
 
 import (
 	"github.com/hyperledger/fabric-protos-go/peer"
-	endorsement "github.com/hyperledger/fabric/core/handlers/endorsement/api"
+	endorsement "github.com/jxu86/fabric-gm/core/handlers/endorsement/api"
 )
 
 type NoOpEndorser struct {

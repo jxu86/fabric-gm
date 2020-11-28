@@ -5,7 +5,7 @@ package server
 
 import (
 	"fmt"
-	"github.com/hyperledger/fabric/orderer/common/onboarding"
+	"github.com/jxu86/fabric-gm/orderer/common/onboarding"
 	"io/ioutil"
 	"net"
 	"net/http"
@@ -19,28 +19,28 @@ import (
 
 	"github.com/golang/protobuf/proto"
 	"github.com/hyperledger/fabric-protos-go/common"
-	"github.com/hyperledger/fabric/bccsp/factory"
-	"github.com/hyperledger/fabric/bccsp/sw"
-	"github.com/hyperledger/fabric/common/channelconfig"
-	"github.com/hyperledger/fabric/common/crypto/tlsgen"
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/common/flogging/floggingtest"
-	"github.com/hyperledger/fabric/common/ledger/blockledger"
-	"github.com/hyperledger/fabric/common/ledger/blockledger/fileledger"
-	"github.com/hyperledger/fabric/common/metrics/disabled"
-	"github.com/hyperledger/fabric/common/metrics/prometheus"
-	"github.com/hyperledger/fabric/core/config/configtest"
-	"github.com/hyperledger/fabric/internal/configtxgen/encoder"
-	"github.com/hyperledger/fabric/internal/configtxgen/genesisconfig"
-	"github.com/hyperledger/fabric/internal/pkg/comm"
-	"github.com/hyperledger/fabric/internal/pkg/identity"
-	"github.com/hyperledger/fabric/orderer/common/bootstrap/file"
-	"github.com/hyperledger/fabric/orderer/common/cluster"
-	"github.com/hyperledger/fabric/orderer/common/localconfig"
-	"github.com/hyperledger/fabric/orderer/common/multichannel"
-	server_mocks "github.com/hyperledger/fabric/orderer/common/server/mocks"
-	"github.com/hyperledger/fabric/orderer/consensus"
-	"github.com/hyperledger/fabric/protoutil"
+	"github.com/jxu86/fabric-gm/bccsp/factory"
+	"github.com/jxu86/fabric-gm/bccsp/sw"
+	"github.com/jxu86/fabric-gm/common/channelconfig"
+	"github.com/jxu86/fabric-gm/common/crypto/tlsgen"
+	"github.com/jxu86/fabric-gm/common/flogging"
+	"github.com/jxu86/fabric-gm/common/flogging/floggingtest"
+	"github.com/jxu86/fabric-gm/common/ledger/blockledger"
+	"github.com/jxu86/fabric-gm/common/ledger/blockledger/fileledger"
+	"github.com/jxu86/fabric-gm/common/metrics/disabled"
+	"github.com/jxu86/fabric-gm/common/metrics/prometheus"
+	"github.com/jxu86/fabric-gm/core/config/configtest"
+	"github.com/jxu86/fabric-gm/internal/configtxgen/encoder"
+	"github.com/jxu86/fabric-gm/internal/configtxgen/genesisconfig"
+	"github.com/jxu86/fabric-gm/internal/pkg/comm"
+	"github.com/jxu86/fabric-gm/internal/pkg/identity"
+	"github.com/jxu86/fabric-gm/orderer/common/bootstrap/file"
+	"github.com/jxu86/fabric-gm/orderer/common/cluster"
+	"github.com/jxu86/fabric-gm/orderer/common/localconfig"
+	"github.com/jxu86/fabric-gm/orderer/common/multichannel"
+	server_mocks "github.com/jxu86/fabric-gm/orderer/common/server/mocks"
+	"github.com/jxu86/fabric-gm/orderer/consensus"
+	"github.com/jxu86/fabric-gm/protoutil"
 	. "github.com/onsi/gomega"
 	"github.com/onsi/gomega/gexec"
 	"github.com/pkg/errors"
@@ -61,7 +61,7 @@ var cryptogen, tempDir string
 
 func TestMain(m *testing.M) {
 	var err error
-	cryptogen, err = gexec.Build("github.com/hyperledger/fabric/cmd/cryptogen")
+	cryptogen, err = gexec.Build("github.com/jxu86/fabric-gm/cmd/cryptogen")
 	if err != nil {
 		fmt.Fprintf(os.Stderr, "cryptogen build failed: %v", err)
 		os.Exit(-1)

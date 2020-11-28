@@ -8,8 +8,8 @@ package cache
 
 import (
 	pmsp "github.com/hyperledger/fabric-protos-go/msp"
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/msp"
+	"github.com/jxu86/fabric-gm/common/flogging"
+	"github.com/jxu86/fabric-gm/msp"
 	"github.com/pkg/errors"
 )
 

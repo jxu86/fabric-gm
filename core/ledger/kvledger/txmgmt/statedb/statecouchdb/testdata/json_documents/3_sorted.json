@@ -28,7 +28,7 @@
       "Args": [
         "deploy",
         "ch1",
-        "\nU\u0008\u0001\u0012I\n=github.com/hyperledger/fabric/examples/chaincode/go/marbles02\u0012\u0005mycc1\u001a\u00010\u001a\u0006\n\u0004init",
+        "\nU\u0008\u0001\u0012I\n=github.com/jxu86/fabric-gm/examples/chaincode/go/marbles02\u0012\u0005mycc1\u001a\u00010\u001a\u0006\n\u0004init",
         "",
         "escc",
         "vscc"

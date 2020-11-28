@@ -11,12 +11,12 @@ import (
 	"encoding/hex"
 
 	proto "github.com/hyperledger/fabric-protos-go/gossip"
-	"github.com/hyperledger/fabric/gossip/api"
-	"github.com/hyperledger/fabric/gossip/common"
-	"github.com/hyperledger/fabric/gossip/gossip/pull"
-	"github.com/hyperledger/fabric/gossip/identity"
-	"github.com/hyperledger/fabric/gossip/protoext"
-	"github.com/hyperledger/fabric/gossip/util"
+	"github.com/jxu86/fabric-gm/gossip/api"
+	"github.com/jxu86/fabric-gm/gossip/common"
+	"github.com/jxu86/fabric-gm/gossip/gossip/pull"
+	"github.com/jxu86/fabric-gm/gossip/identity"
+	"github.com/jxu86/fabric-gm/gossip/protoext"
+	"github.com/jxu86/fabric-gm/gossip/util"
 	"github.com/pkg/errors"
 )
 

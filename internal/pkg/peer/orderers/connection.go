@@ -13,8 +13,8 @@ import (
 	"math/rand"
 	"sync"
 
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/internal/pkg/comm"
+	"github.com/jxu86/fabric-gm/common/flogging"
+	"github.com/jxu86/fabric-gm/internal/pkg/comm"
 
 	"github.com/pkg/errors"
 	//todo：国密：sm2 credentials

@@ -8,7 +8,7 @@ package comm
 
 import (
 	proto "github.com/hyperledger/fabric-protos-go/gossip"
-	"github.com/hyperledger/fabric/gossip/protoext"
+	"github.com/jxu86/fabric-gm/gossip/protoext"
 	"github.com/pkg/errors"
 )
 

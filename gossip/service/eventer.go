@@ -10,8 +10,8 @@ import (
 	"reflect"
 
 	"github.com/hyperledger/fabric-protos-go/peer"
-	"github.com/hyperledger/fabric/common/channelconfig"
-	"github.com/hyperledger/fabric/msp"
+	"github.com/jxu86/fabric-gm/common/channelconfig"
+	"github.com/jxu86/fabric-gm/msp"
 )
 
 // Config enumerates the configuration methods required by gossip

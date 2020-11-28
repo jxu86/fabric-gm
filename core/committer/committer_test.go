@@ -11,10 +11,10 @@ import (
 
 	"github.com/hyperledger/fabric-protos-go/common"
 	"github.com/hyperledger/fabric-protos-go/peer"
-	"github.com/hyperledger/fabric/common/configtx/test"
-	"github.com/hyperledger/fabric/common/ledger"
-	"github.com/hyperledger/fabric/common/ledger/testutil"
-	ledger2 "github.com/hyperledger/fabric/core/ledger"
+	"github.com/jxu86/fabric-gm/common/configtx/test"
+	"github.com/jxu86/fabric-gm/common/ledger"
+	"github.com/jxu86/fabric-gm/common/ledger/testutil"
+	ledger2 "github.com/jxu86/fabric-gm/core/ledger"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 )

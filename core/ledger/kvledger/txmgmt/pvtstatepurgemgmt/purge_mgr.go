@@ -10,12 +10,12 @@ import (
 	"math"
 	"sync"
 
-	"github.com/hyperledger/fabric/core/ledger/internal/version"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/bookkeeping"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/privacyenabledstate"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/statedb"
-	"github.com/hyperledger/fabric/core/ledger/pvtdatapolicy"
-	"github.com/hyperledger/fabric/core/ledger/util"
+	"github.com/jxu86/fabric-gm/core/ledger/internal/version"
+	"github.com/jxu86/fabric-gm/core/ledger/kvledger/bookkeeping"
+	"github.com/jxu86/fabric-gm/core/ledger/kvledger/txmgmt/privacyenabledstate"
+	"github.com/jxu86/fabric-gm/core/ledger/kvledger/txmgmt/statedb"
+	"github.com/jxu86/fabric-gm/core/ledger/pvtdatapolicy"
+	"github.com/jxu86/fabric-gm/core/ledger/util"
 )
 
 type PurgeMgr struct {

@@ -11,12 +11,12 @@ import (
 
 	"github.com/golang/protobuf/proto"
 	cb "github.com/hyperledger/fabric-protos-go/common"
-	newchannelconfig "github.com/hyperledger/fabric/common/channelconfig"
-	"github.com/hyperledger/fabric/common/configtx"
-	"github.com/hyperledger/fabric/common/ledger/blockledger"
-	"github.com/hyperledger/fabric/common/util"
-	"github.com/hyperledger/fabric/internal/pkg/identity"
-	"github.com/hyperledger/fabric/protoutil"
+	newchannelconfig "github.com/jxu86/fabric-gm/common/channelconfig"
+	"github.com/jxu86/fabric-gm/common/configtx"
+	"github.com/jxu86/fabric-gm/common/ledger/blockledger"
+	"github.com/jxu86/fabric-gm/common/util"
+	"github.com/jxu86/fabric-gm/internal/pkg/identity"
+	"github.com/jxu86/fabric-gm/protoutil"
 )
 
 type blockWriterSupport interface {

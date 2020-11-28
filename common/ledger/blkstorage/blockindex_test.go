@@ -16,13 +16,13 @@ import (
 	"testing"
 
 	"github.com/hyperledger/fabric-protos-go/common"
-	"github.com/hyperledger/fabric/common/ledger/snapshot"
-	"github.com/hyperledger/fabric/common/ledger/testutil"
-	"github.com/hyperledger/fabric/common/ledger/util"
-	commonledgerutil "github.com/hyperledger/fabric/common/ledger/util"
-	"github.com/hyperledger/fabric/common/metrics/disabled"
-	"github.com/hyperledger/fabric/internal/pkg/txflags"
-	"github.com/hyperledger/fabric/protoutil"
+	"github.com/jxu86/fabric-gm/common/ledger/snapshot"
+	"github.com/jxu86/fabric-gm/common/ledger/testutil"
+	"github.com/jxu86/fabric-gm/common/ledger/util"
+	commonledgerutil "github.com/jxu86/fabric-gm/common/ledger/util"
+	"github.com/jxu86/fabric-gm/common/metrics/disabled"
+	"github.com/jxu86/fabric-gm/internal/pkg/txflags"
+	"github.com/jxu86/fabric-gm/protoutil"
 	"github.com/stretchr/testify/require"
 )
 

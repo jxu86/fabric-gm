@@ -5,7 +5,7 @@ import (
 	"sync"
 
 	"github.com/hyperledger/fabric-protos-go/peer"
-	"github.com/hyperledger/fabric/core/chaincode/persistence"
+	"github.com/jxu86/fabric-gm/core/chaincode/persistence"
 )
 
 type LegacyCCPackageLocator struct {

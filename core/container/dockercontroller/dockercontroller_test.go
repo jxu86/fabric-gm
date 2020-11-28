@@ -21,13 +21,13 @@ import (
 
 	docker "github.com/fsouza/go-dockerclient"
 	pb "github.com/hyperledger/fabric-protos-go/peer"
-	"github.com/hyperledger/fabric/common/flogging/floggingtest"
-	"github.com/hyperledger/fabric/common/metrics/disabled"
-	"github.com/hyperledger/fabric/common/metrics/metricsfakes"
-	"github.com/hyperledger/fabric/common/util"
-	"github.com/hyperledger/fabric/core/chaincode/persistence"
-	"github.com/hyperledger/fabric/core/container/ccintf"
-	"github.com/hyperledger/fabric/core/container/dockercontroller/mock"
+	"github.com/jxu86/fabric-gm/common/flogging/floggingtest"
+	"github.com/jxu86/fabric-gm/common/metrics/disabled"
+	"github.com/jxu86/fabric-gm/common/metrics/metricsfakes"
+	"github.com/jxu86/fabric-gm/common/util"
+	"github.com/jxu86/fabric-gm/core/chaincode/persistence"
+	"github.com/jxu86/fabric-gm/core/container/ccintf"
+	"github.com/jxu86/fabric-gm/core/container/dockercontroller/mock"
 	. "github.com/onsi/gomega"
 	"github.com/onsi/gomega/gbytes"
 	"github.com/stretchr/testify/assert"
@@ -128,11 +128,11 @@ func TestGetEnv(t *testing.T) {
 			"CORE_CHAINCODE_ID_NAME=test",
 			"LOG_ENV=foo",
 			"CORE_PEER_TLS_ENABLED=true",
-			"CORE_TLS_CLIENT_KEY_PATH=/etc/hyperledger/fabric/client.key",
-			"CORE_TLS_CLIENT_CERT_PATH=/etc/hyperledger/fabric/client.crt",
-			"CORE_TLS_CLIENT_KEY_FILE=/etc/hyperledger/fabric/client_pem.key",
-			"CORE_TLS_CLIENT_CERT_FILE=/etc/hyperledger/fabric/client_pem.crt",
-			"CORE_PEER_TLS_ROOTCERT_FILE=/etc/hyperledger/fabric/peer.crt",
+			"CORE_TLS_CLIENT_KEY_PATH=/etc/jxu86/fabric-gm/client.key",
+			"CORE_TLS_CLIENT_CERT_PATH=/etc/jxu86/fabric-gm/client.crt",
+			"CORE_TLS_CLIENT_KEY_FILE=/etc/jxu86/fabric-gm/client_pem.key",
+			"CORE_TLS_CLIENT_CERT_FILE=/etc/jxu86/fabric-gm/client_pem.crt",
+			"CORE_PEER_TLS_ROOTCERT_FILE=/etc/jxu86/fabric-gm/peer.crt",
 			"CORE_PEER_LOCALMSPID=mspid",
 		}, env)
 	})

@@ -23,7 +23,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/hyperledger/fabric/bccsp/mocks"
+	"github.com/jxu86/fabric-gm/bccsp/mocks"
 	"github.com/stretchr/testify/assert"
 )
 

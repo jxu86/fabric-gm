@@ -17,9 +17,9 @@ import (
 
 	"github.com/golang/protobuf/proto"
 	"github.com/hyperledger/fabric-protos-go/peer"
-	"github.com/hyperledger/fabric/bccsp/sw"
-	"github.com/hyperledger/fabric/common/chaincode"
-	"github.com/hyperledger/fabric/core/common/ccprovider"
+	"github.com/jxu86/fabric-gm/bccsp/sw"
+	"github.com/jxu86/fabric-gm/common/chaincode"
+	"github.com/jxu86/fabric-gm/core/common/ccprovider"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 )

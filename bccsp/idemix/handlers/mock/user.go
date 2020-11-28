@@ -4,7 +4,7 @@ package mock
 import (
 	"sync"
 
-	"github.com/hyperledger/fabric/bccsp/idemix/handlers"
+	"github.com/jxu86/fabric-gm/bccsp/idemix/handlers"
 )
 
 type User struct {

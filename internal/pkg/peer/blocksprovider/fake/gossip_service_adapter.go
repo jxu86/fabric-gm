@@ -5,7 +5,7 @@ import (
 	"sync"
 
 	"github.com/hyperledger/fabric-protos-go/gossip"
-	"github.com/hyperledger/fabric/internal/pkg/peer/blocksprovider"
+	"github.com/jxu86/fabric-gm/internal/pkg/peer/blocksprovider"
 )
 
 type GossipServiceAdapter struct {

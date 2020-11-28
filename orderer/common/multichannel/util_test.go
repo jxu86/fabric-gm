@@ -11,17 +11,17 @@ import (
 	"fmt"
 
 	cb "github.com/hyperledger/fabric-protos-go/common"
-	"github.com/hyperledger/fabric/common/capabilities"
-	"github.com/hyperledger/fabric/common/channelconfig"
-	"github.com/hyperledger/fabric/common/configtx"
-	"github.com/hyperledger/fabric/core/config/configtest"
-	"github.com/hyperledger/fabric/internal/configtxgen/encoder"
-	"github.com/hyperledger/fabric/internal/configtxgen/genesisconfig"
-	"github.com/hyperledger/fabric/orderer/common/blockcutter"
-	"github.com/hyperledger/fabric/orderer/common/msgprocessor"
-	"github.com/hyperledger/fabric/orderer/common/types"
-	"github.com/hyperledger/fabric/orderer/consensus"
-	"github.com/hyperledger/fabric/protoutil"
+	"github.com/jxu86/fabric-gm/common/capabilities"
+	"github.com/jxu86/fabric-gm/common/channelconfig"
+	"github.com/jxu86/fabric-gm/common/configtx"
+	"github.com/jxu86/fabric-gm/core/config/configtest"
+	"github.com/jxu86/fabric-gm/internal/configtxgen/encoder"
+	"github.com/jxu86/fabric-gm/internal/configtxgen/genesisconfig"
+	"github.com/jxu86/fabric-gm/orderer/common/blockcutter"
+	"github.com/jxu86/fabric-gm/orderer/common/msgprocessor"
+	"github.com/jxu86/fabric-gm/orderer/common/types"
+	"github.com/jxu86/fabric-gm/orderer/consensus"
+	"github.com/jxu86/fabric-gm/protoutil"
 )
 
 type mockConsenter struct {

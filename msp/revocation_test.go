@@ -21,7 +21,7 @@ import (
 	"testing"
 
 	"github.com/hyperledger/fabric-protos-go/msp"
-	"github.com/hyperledger/fabric/bccsp/sw"
+	"github.com/jxu86/fabric-gm/bccsp/sw"
 	"github.com/stretchr/testify/assert"
 )
 

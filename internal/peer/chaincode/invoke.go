@@ -9,7 +9,7 @@ package chaincode
 import (
 	"fmt"
 
-	"github.com/hyperledger/fabric/bccsp"
+	"github.com/jxu86/fabric-gm/bccsp"
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 )

@@ -24,12 +24,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/hyperledger/fabric/internal/cryptogen/csp"
+	"github.com/jxu86/fabric-gm/internal/cryptogen/csp"
 	"github.com/pkg/errors"
 
-	"github.com/hyperledger/fabric/bccsp"
-	"github.com/hyperledger/fabric/bccsp/gm"
-	"github.com/hyperledger/fabric/bccsp/utils"
+	"github.com/jxu86/fabric-gm/bccsp"
+	"github.com/jxu86/fabric-gm/bccsp/gm"
+	"github.com/jxu86/fabric-gm/bccsp/utils"
 	"github.com/tjfoc/gmsm/sm2"
 )
 

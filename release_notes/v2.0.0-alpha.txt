@@ -56,7 +56,7 @@ sh or ash instead.
 
 FAB-12075 - Duplicate Go Client identity library removed
 If vendoring the Client identity library (CID) in chaincode, import
-github.com/hyperledger/fabric/core/chaincode/shim/ext/cid
+github.com/jxu86/fabric-gm/core/chaincode/shim/ext/cid
 rather than
 github.com/hyperledger/fabriccore/chaincode/lib/cid/cid.go
 
@@ -88,4 +88,4 @@ Updated to Go version 1.11.5
 Updated baseimage version to 0.4.15 for third party dependencies.
 
 For the full list of improvements and fixes, refer to the release change log:
-https://github.com/hyperledger/fabric/blob/master/CHANGELOG.md#v200-alpha
+https://github.com/jxu86/fabric-gm/blob/master/CHANGELOG.md#v200-alpha

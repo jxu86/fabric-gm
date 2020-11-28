@@ -22,7 +22,7 @@ on which access control should be exercised.
 
 Application developers need to be aware of these resources and the default
 policies associated with them. The complete list of these resources are found in
-`configtx.yaml`. You can look at a [sample `configtx.yaml` file here](http://github.com/hyperledger/fabric/blob/release-2.0/sampleconfig/configtx.yaml).
+`configtx.yaml`. You can look at a [sample `configtx.yaml` file here](http://github.com/jxu86/fabric-gm/blob/release-2.0/sampleconfig/configtx.yaml).
 
 The resources named in `configtx.yaml` is an exhaustive list of all internal resources
 currently defined by Fabric. The loose convention adopted there is `<component>/<resource>`.
@@ -107,7 +107,7 @@ access control in the channel configuration of an existing channel.
 ## How ACLs are formatted in `configtx.yaml`
 
 ACLs are formatted as a key-value pair consisting of a resource function name
-followed by a string. To see what this looks like, reference this [sample configtx.yaml file](https://github.com/hyperledger/fabric/blob/release-2.0/sampleconfig/configtx.yaml).
+followed by a string. To see what this looks like, reference this [sample configtx.yaml file](https://github.com/jxu86/fabric-gm/blob/release-2.0/sampleconfig/configtx.yaml).
 
 Two excerpts from this sample:
 

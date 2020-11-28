@@ -15,11 +15,11 @@ import (
 
 	protosgossip "github.com/hyperledger/fabric-protos-go/gossip"
 	"github.com/hyperledger/fabric-protos-go/peer"
-	commonutil "github.com/hyperledger/fabric/common/util"
-	"github.com/hyperledger/fabric/core/committer"
-	"github.com/hyperledger/fabric/core/ledger"
-	"github.com/hyperledger/fabric/gossip/metrics"
-	privdatacommon "github.com/hyperledger/fabric/gossip/privdata/common"
+	commonutil "github.com/jxu86/fabric-gm/common/util"
+	"github.com/jxu86/fabric-gm/core/committer"
+	"github.com/jxu86/fabric-gm/core/ledger"
+	"github.com/jxu86/fabric-gm/gossip/metrics"
+	privdatacommon "github.com/jxu86/fabric-gm/gossip/privdata/common"
 	"github.com/pkg/errors"
 )
 

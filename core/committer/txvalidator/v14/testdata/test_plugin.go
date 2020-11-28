@@ -11,12 +11,12 @@ import (
 
 	"github.com/golang/protobuf/proto"
 	"github.com/hyperledger/fabric-protos-go/common"
-	validation "github.com/hyperledger/fabric/core/handlers/validation/api"
-	. "github.com/hyperledger/fabric/core/handlers/validation/api/capabilities"
-	. "github.com/hyperledger/fabric/core/handlers/validation/api/identities"
-	. "github.com/hyperledger/fabric/core/handlers/validation/api/policies"
-	. "github.com/hyperledger/fabric/core/handlers/validation/api/state"
-	"github.com/hyperledger/fabric/protoutil"
+	validation "github.com/jxu86/fabric-gm/core/handlers/validation/api"
+	. "github.com/jxu86/fabric-gm/core/handlers/validation/api/capabilities"
+	. "github.com/jxu86/fabric-gm/core/handlers/validation/api/identities"
+	. "github.com/jxu86/fabric-gm/core/handlers/validation/api/policies"
+	. "github.com/jxu86/fabric-gm/core/handlers/validation/api/state"
+	"github.com/jxu86/fabric-gm/protoutil"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 )

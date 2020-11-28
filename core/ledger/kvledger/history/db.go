@@ -8,15 +8,15 @@ package history
 
 import (
 	"github.com/hyperledger/fabric-protos-go/common"
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/common/ledger/blkstorage"
-	"github.com/hyperledger/fabric/common/ledger/dataformat"
-	"github.com/hyperledger/fabric/common/ledger/util/leveldbhelper"
-	"github.com/hyperledger/fabric/core/ledger"
-	"github.com/hyperledger/fabric/core/ledger/internal/version"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/rwsetutil"
-	"github.com/hyperledger/fabric/internal/pkg/txflags"
-	protoutil "github.com/hyperledger/fabric/protoutil"
+	"github.com/jxu86/fabric-gm/common/flogging"
+	"github.com/jxu86/fabric-gm/common/ledger/blkstorage"
+	"github.com/jxu86/fabric-gm/common/ledger/dataformat"
+	"github.com/jxu86/fabric-gm/common/ledger/util/leveldbhelper"
+	"github.com/jxu86/fabric-gm/core/ledger"
+	"github.com/jxu86/fabric-gm/core/ledger/internal/version"
+	"github.com/jxu86/fabric-gm/core/ledger/kvledger/txmgmt/rwsetutil"
+	"github.com/jxu86/fabric-gm/internal/pkg/txflags"
+	protoutil "github.com/jxu86/fabric-gm/protoutil"
 )
 
 var logger = flogging.MustGetLogger("history")

@@ -153,7 +153,7 @@ If Fabric CA is the credential issuer:
   create an 'admin' identity, register the identity with the ``role`` attribute
   and a value of ``2``.
 
-For an example of setting an affiliation in the Java SDK see this `sample <https://github.com/hyperledger/fabric-sdk-java/blob/{BRANCH}/src/test/java/org/hyperledger/fabric/sdkintegration/End2endIdemixIT.java#L121>`_.
+For an example of setting an affiliation in the Java SDK see this `sample <https://github.com/hyperledger/fabric-sdk-java/blob/{BRANCH}/src/test/java/org/jxu86/fabric-gm/sdkintegration/End2endIdemixIT.java#L121>`_.
 
 For an example of using the CID library in go chaincode to retrieve attributes,
 see this `go chaincode <https://github.com/hyperledger/fabric-sdk-java/blob/{BRANCH}/src/test/fixture/sdkintegration/gocc/sampleIdemix/src/github.com/example_cc/example_cc.go#L88>`_.

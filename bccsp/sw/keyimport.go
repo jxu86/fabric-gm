@@ -15,8 +15,8 @@ import (
 
 	"github.com/tjfoc/gmsm/sm2"
 
-	"github.com/hyperledger/fabric/bccsp"
-	"github.com/hyperledger/fabric/bccsp/utils"
+	"github.com/jxu86/fabric-gm/bccsp"
+	"github.com/jxu86/fabric-gm/bccsp/utils"
 )
 
 type aes256ImportKeyOptsKeyImporter struct{}

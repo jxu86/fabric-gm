@@ -5,8 +5,8 @@ import (
 	"sync"
 
 	"github.com/hyperledger/fabric-protos-go/peer"
-	"github.com/hyperledger/fabric/common/ledger"
-	"github.com/hyperledger/fabric/core/chaincode"
+	"github.com/jxu86/fabric-gm/common/ledger"
+	"github.com/jxu86/fabric-gm/core/chaincode"
 )
 
 type QueryResponseBuilder struct {

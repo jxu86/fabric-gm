@@ -18,7 +18,7 @@ package committer
 
 import (
 	"github.com/hyperledger/fabric-protos-go/common"
-	"github.com/hyperledger/fabric/core/ledger"
+	"github.com/jxu86/fabric-gm/core/ledger"
 )
 
 // Committer is the interface supported by committers

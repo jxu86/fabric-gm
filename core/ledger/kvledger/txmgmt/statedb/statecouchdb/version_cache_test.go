@@ -9,7 +9,7 @@ package statecouchdb
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric/core/ledger/internal/version"
+	"github.com/jxu86/fabric-gm/core/ledger/internal/version"
 	"github.com/stretchr/testify/require"
 )
 

@@ -13,11 +13,11 @@ import (
 	"github.com/hyperledger/fabric-config/protolator"
 	cb "github.com/hyperledger/fabric-protos-go/common"
 	ab "github.com/hyperledger/fabric-protos-go/orderer"
-	"github.com/hyperledger/fabric/bccsp/factory"
-	"github.com/hyperledger/fabric/internal/pkg/identity"
-	mspmgmt "github.com/hyperledger/fabric/msp/mgmt"
-	"github.com/hyperledger/fabric/orderer/common/localconfig"
-	"github.com/hyperledger/fabric/protoutil"
+	"github.com/jxu86/fabric-gm/bccsp/factory"
+	"github.com/jxu86/fabric-gm/internal/pkg/identity"
+	mspmgmt "github.com/jxu86/fabric-gm/msp/mgmt"
+	"github.com/jxu86/fabric-gm/orderer/common/localconfig"
+	"github.com/jxu86/fabric-gm/protoutil"
 	"google.golang.org/grpc"
 )
 

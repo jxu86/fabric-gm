@@ -203,7 +203,7 @@ variables for the orderer TLS certificate and the channel name:
 
 .. code:: bash
 
-  export ORDERER_CA=/opt/gopath/src/github.com/hyperledger/fabric/peer/organizations/ordererOrganizations/example.com/orderers/orderer.example.com/msp/tlscacerts/tlsca.example.com-cert.pem
+  export ORDERER_CA=/opt/gopath/src/github.com/jxu86/fabric-gm/peer/organizations/ordererOrganizations/example.com/orderers/orderer.example.com/msp/tlscacerts/tlsca.example.com-cert.pem
   export CHANNEL_NAME=mychannel
 
 Check to make sure the variables have been properly set:
@@ -240,8 +240,8 @@ Issue the following commands to operate as the Org1 admin.
   # you can issue all of these commands at once
 
   export CORE_PEER_LOCALMSPID="Org1MSP"
-  export CORE_PEER_TLS_ROOTCERT_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/organizations/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/ca.crt
-  export CORE_PEER_MSPCONFIGPATH=/opt/gopath/src/github.com/hyperledger/fabric/peer/organizations/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp
+  export CORE_PEER_TLS_ROOTCERT_FILE=/opt/gopath/src/github.com/jxu86/fabric-gm/peer/organizations/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/ca.crt
+  export CORE_PEER_MSPCONFIGPATH=/opt/gopath/src/github.com/jxu86/fabric-gm/peer/organizations/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp
   export CORE_PEER_ADDRESS=peer0.org1.example.com:7051
 
 We can now issue the command to fetch the latest config block:
@@ -402,8 +402,8 @@ Export the Org2 environment variables:
   # you can issue all of these commands at once
 
   export CORE_PEER_LOCALMSPID="Org2MSP"
-  export CORE_PEER_TLS_ROOTCERT_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/organizations/peerOrganizations/org2.example.com/peers/peer0.org2.example.com/tls/ca.crt
-  export CORE_PEER_MSPCONFIGPATH=/opt/gopath/src/github.com/hyperledger/fabric/peer/organizations/peerOrganizations/org2.example.com/users/Admin@org2.example.com/msp
+  export CORE_PEER_TLS_ROOTCERT_FILE=/opt/gopath/src/github.com/jxu86/fabric-gm/peer/organizations/peerOrganizations/org2.example.com/peers/peer0.org2.example.com/tls/ca.crt
+  export CORE_PEER_MSPCONFIGPATH=/opt/gopath/src/github.com/jxu86/fabric-gm/peer/organizations/peerOrganizations/org2.example.com/users/Admin@org2.example.com/msp
   export CORE_PEER_ADDRESS=peer0.org2.example.com:9051
 
 Lastly, we will issue the ``peer channel update`` command. The Org2 Admin signature
@@ -455,8 +455,8 @@ as the Org3 Admin:
   # you can issue all of these commands at once
 
   export CORE_PEER_LOCALMSPID="Org3MSP"
-  export CORE_PEER_TLS_ROOTCERT_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/organizations/peerOrganizations/org3.example.com/peers/peer0.org3.example.com/tls/ca.crt
-  export CORE_PEER_MSPCONFIGPATH=/opt/gopath/src/github.com/hyperledger/fabric/peer/organizations/peerOrganizations/org3.example.com/users/Admin@org3.example.com/msp
+  export CORE_PEER_TLS_ROOTCERT_FILE=/opt/gopath/src/github.com/jxu86/fabric-gm/peer/organizations/peerOrganizations/org3.example.com/peers/peer0.org3.example.com/tls/ca.crt
+  export CORE_PEER_MSPCONFIGPATH=/opt/gopath/src/github.com/jxu86/fabric-gm/peer/organizations/peerOrganizations/org3.example.com/users/Admin@org3.example.com/msp
   export CORE_PEER_ADDRESS=peer0.org3.example.com:11051
 
 Now let's send a call to the ordering service asking for the genesis block of
@@ -711,7 +711,7 @@ Export the $ORDERER_CA and $CHANNEL_NAME variables if they are not already set:
 
 .. code:: bash
 
-  export ORDERER_CA=/opt/gopath/src/github.com/hyperledger/fabric/peer/organizations/ordererOrganizations/example.com/orderers/orderer.example.com/msp/tlscacerts/tlsca.example.com-cert.pem
+  export ORDERER_CA=/opt/gopath/src/github.com/jxu86/fabric-gm/peer/organizations/ordererOrganizations/example.com/orderers/orderer.example.com/msp/tlscacerts/tlsca.example.com-cert.pem
   export CHANNEL_NAME=mychannel
 
 As before, we will fetch the latest channel configuration to get started.
@@ -798,8 +798,8 @@ commands to make sure that we are operating as the Org3 admin:
   # you can issue all of these commands at once
 
   export CORE_PEER_LOCALMSPID="Org3MSP"
-  export CORE_PEER_TLS_ROOTCERT_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/organizations/peerOrganizations/org3.example.com/peers/peer0.org3.example.com/tls/ca.crt
-  export CORE_PEER_MSPCONFIGPATH=/opt/gopath/src/github.com/hyperledger/fabric/peer/organizations/peerOrganizations/org3.example.com/users/Admin@org3.example.com/msp
+  export CORE_PEER_TLS_ROOTCERT_FILE=/opt/gopath/src/github.com/jxu86/fabric-gm/peer/organizations/peerOrganizations/org3.example.com/peers/peer0.org3.example.com/tls/ca.crt
+  export CORE_PEER_MSPCONFIGPATH=/opt/gopath/src/github.com/jxu86/fabric-gm/peer/organizations/peerOrganizations/org3.example.com/users/Admin@org3.example.com/msp
   export CORE_PEER_ADDRESS=peer0.org3.example.com:11051
 
 We can now just use the ``peer channel update`` command to sign the update as the

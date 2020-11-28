@@ -21,7 +21,7 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/hyperledger/fabric/bccsp"
+	"github.com/jxu86/fabric-gm/bccsp"
 	"github.com/tjfoc/gmsm/sm2"
 )
 //todo：国密：增加gm

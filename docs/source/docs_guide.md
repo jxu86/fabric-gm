@@ -40,7 +40,7 @@ For example:
   * [Version 1.4 of US English](https://hyperledger-fabric.readthedocs.io/en/release-1.4/)
 
 For historical reasons, the US English source files live in the main [Fabric
-repository](https://github.com/hyperledger/fabric/), whereas all international
+repository](https://github.com/jxu86/fabric-gm/), whereas all international
 language source files live in a single [Fabric i18n
 repository](https://github.com/hyperledger/fabric-docs-i18n). Different versions
 of the documentation are held within the appropriate GitHub release branch.
@@ -96,17 +96,17 @@ fabric/docs
 ```
 
 Spend a little time navigating the [docs
-folder](https://github.com/hyperledger/fabric/tree/master/docs) in the
+folder](https://github.com/jxu86/fabric-gm/tree/master/docs) in the
 Hyperledger Fabric repository. Click on the following links to see how different
 source files map to their corresponding published topics.
 
-* [`/docs/source/index.rst`](https://raw.githubusercontent.com/hyperledger/fabric/master/docs/source/index.rst) maps to [Hyperledger Fabric title page](https://hyperledger-fabric.readthedocs.io/en/{RTD_TAG}/)
+* [`/docs/source/index.rst`](https://raw.githubusercontent.com/jxu86/fabric-gm/master/docs/source/index.rst) maps to [Hyperledger Fabric title page](https://hyperledger-fabric.readthedocs.io/en/{RTD_TAG}/)
 
-* [`/docs/source/developapps/developing-applications.rst`](https://raw.githubusercontent.com/hyperledger/fabric/master/docs/source/developapps/developing_applications.rst)
+* [`/docs/source/developapps/developing-applications.rst`](https://raw.githubusercontent.com/jxu86/fabric-gm/master/docs/source/developapps/developing_applications.rst)
   maps to [Developing
   applications](https://hyperledger-fabric.readthedocs.io/en/{RTD_TAG}/developapps/developing_applications.html)
 
-* [`/docs/source/peers/peers.md`](https://raw.githubusercontent.com/hyperledger/fabric/master/docs/source/peers/peers.md)
+* [`/docs/source/peers/peers.md`](https://raw.githubusercontent.com/jxu86/fabric-gm/master/docs/source/peers/peers.md)
   maps to
   [Peers](https://hyperledger-fabric.readthedocs.io/en/{RTD_TAG}/peers/peers.html)
 
@@ -289,7 +289,7 @@ Japanese translation must be approved by a Japanese maintainer, and so on. You
 can find the maintainers listed in the following `CODEOWNERS` files:
 
 * US English
-  [`CODEOWNERS`](https://github.com/hyperledger/fabric/blob/master/CODEOWNERS)
+  [`CODEOWNERS`](https://github.com/jxu86/fabric-gm/blob/master/CODEOWNERS)
   and their [maintainer GitHub
   IDs](https://github.com/orgs/hyperledger/teams/fabric-core-doc-maintainers)
 * International language
@@ -309,7 +309,7 @@ topic requires additional steps. Because the information in the Commands
 Reference topic is generated content, you cannot simply update the associated
 markdown files.
 - Instead you need to update the `_preamble.md` or `_postscript.md` files under
-  `src/github.com/hyperledger/fabric/docs/wrappers` for the command.
+  `src/github.com/jxu86/fabric-gm/docs/wrappers` for the command.
 - To update the command help text, you need to edit the associated `.go` file
   for the command that is located under `/fabric/internal/peer`.
 - Then, from the `fabric` folder, you need to run the command `make help-docs`
@@ -330,8 +330,8 @@ To add a new CLI command, perform the following steps:
   associated help text. See `internal/peer/version` for a simple example to get
   started.
 - Add a section for your CLI command in
-  `src/github.com/hyperledger/fabric/scripts/generateHelpDoc.sh`.
-- Create two new files under `/src/github.com/hyperledger/fabric/docs/wrappers`
+  `src/github.com/jxu86/fabric-gm/scripts/generateHelpDoc.sh`.
+- Create two new files under `/src/github.com/jxu86/fabric-gm/docs/wrappers`
   with the associated content:
   - `<command>_preamble.md` (Command name and syntax)
   - `<command>_postscript.md` (Example usage)

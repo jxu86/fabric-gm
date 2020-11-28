@@ -5,7 +5,7 @@ import (
 	"sync"
 
 	"github.com/hyperledger/fabric-lib-go/healthz"
-	"github.com/hyperledger/fabric/core/ledger"
+	"github.com/jxu86/fabric-gm/core/ledger"
 )
 
 type HealthCheckRegistry struct {

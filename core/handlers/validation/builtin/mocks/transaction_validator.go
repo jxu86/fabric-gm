@@ -4,7 +4,7 @@ package mocks
 
 import (
 	common "github.com/hyperledger/fabric-protos-go/common"
-	errors "github.com/hyperledger/fabric/common/errors"
+	errors "github.com/jxu86/fabric-gm/common/errors"
 
 	mock "github.com/stretchr/testify/mock"
 )

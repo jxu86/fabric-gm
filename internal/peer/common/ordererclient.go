@@ -11,7 +11,7 @@ import (
 	tls "github.com/tjfoc/gmtls"
 
 	ab "github.com/hyperledger/fabric-protos-go/orderer"
-	"github.com/hyperledger/fabric/internal/pkg/comm"
+	"github.com/jxu86/fabric-gm/internal/pkg/comm"
 	"github.com/pkg/errors"
 )
 

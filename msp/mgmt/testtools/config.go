@@ -7,10 +7,10 @@ SPDX-License-Identifier: Apache-2.0
 package msptesttools
 
 import (
-	"github.com/hyperledger/fabric/bccsp/factory"
-	"github.com/hyperledger/fabric/core/config/configtest"
-	"github.com/hyperledger/fabric/msp"
-	"github.com/hyperledger/fabric/msp/mgmt"
+	"github.com/jxu86/fabric-gm/bccsp/factory"
+	"github.com/jxu86/fabric-gm/core/config/configtest"
+	"github.com/jxu86/fabric-gm/msp"
+	"github.com/jxu86/fabric-gm/msp/mgmt"
 )
 
 // LoadTestMSPSetup sets up the local MSP

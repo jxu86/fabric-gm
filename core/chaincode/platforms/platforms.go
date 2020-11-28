@@ -15,12 +15,12 @@ import (
 	"strings"
 
 	docker "github.com/fsouza/go-dockerclient"
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/common/metadata"
-	"github.com/hyperledger/fabric/core/chaincode/platforms/golang"
-	"github.com/hyperledger/fabric/core/chaincode/platforms/java"
-	"github.com/hyperledger/fabric/core/chaincode/platforms/node"
-	"github.com/hyperledger/fabric/core/chaincode/platforms/util"
+	"github.com/jxu86/fabric-gm/common/flogging"
+	"github.com/jxu86/fabric-gm/common/metadata"
+	"github.com/jxu86/fabric-gm/core/chaincode/platforms/golang"
+	"github.com/jxu86/fabric-gm/core/chaincode/platforms/java"
+	"github.com/jxu86/fabric-gm/core/chaincode/platforms/node"
+	"github.com/jxu86/fabric-gm/core/chaincode/platforms/util"
 	"github.com/pkg/errors"
 )
 

@@ -11,8 +11,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/hyperledger/fabric/common/flogging"
-	msptesttools "github.com/hyperledger/fabric/msp/mgmt/testtools"
+	"github.com/jxu86/fabric-gm/common/flogging"
+	msptesttools "github.com/jxu86/fabric-gm/msp/mgmt/testtools"
 )
 
 func TestMain(m *testing.M) {

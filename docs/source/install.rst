@@ -62,7 +62,7 @@ the binaries and images.
 	  information on where to find the latest version of curl and
 	  get the right environment. Alternately, you can substitute
 	  the un-shortened URL:
-	  https://raw.githubusercontent.com/hyperledger/fabric/{BRANCH}/scripts/bootstrap.sh
+	  https://raw.githubusercontent.com/jxu86/fabric-gm/{BRANCH}/scripts/bootstrap.sh
 
 .. note:: For additional use pattern you can use the -h flag to view the help and available commands for the 
           Fabric-Samples bootstrap script. For example:

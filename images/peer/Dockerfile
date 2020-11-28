@@ -30,8 +30,8 @@ FROM peer-base
 ENV FABRIC_CFG_PATH /etc/hyperledger/fabric
 VOLUME /etc/hyperledger/fabric
 VOLUME /var/hyperledger
-COPY --from=peer /go/src/github.com/hyperledger/fabric/build/bin /usr/local/bin
-COPY --from=peer /go/src/github.com/hyperledger/fabric/sampleconfig/msp ${FABRIC_CFG_PATH}/msp
-COPY --from=peer /go/src/github.com/hyperledger/fabric/sampleconfig/core.yaml ${FABRIC_CFG_PATH}
+COPY --from=peer /go/src/github.com/jxu86/fabric-gm/build/bin /usr/local/bin
+COPY --from=peer /go/src/github.com/jxu86/fabric-gm/sampleconfig/msp ${FABRIC_CFG_PATH}/msp
+COPY --from=peer /go/src/github.com/jxu86/fabric-gm/sampleconfig/core.yaml ${FABRIC_CFG_PATH}
 EXPOSE 7051
 CMD ["peer","node","start"]

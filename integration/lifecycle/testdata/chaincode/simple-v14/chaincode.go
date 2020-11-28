@@ -11,8 +11,8 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/hyperledger/fabric/core/chaincode/shim"
-	pb "github.com/hyperledger/fabric/protos/peer"
+	"github.com/jxu86/fabric-gm/core/chaincode/shim"
+	pb "github.com/jxu86/fabric-gm/protos/peer"
 )
 
 // SimpleChaincode example simple Chaincode implementation

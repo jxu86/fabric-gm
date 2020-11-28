@@ -28,8 +28,8 @@ import (
 	"math/big"
 	"time"
 
-	// "github.com/hyperledger/fabric/bccsp/utils"
-	"github.com/hyperledger/fabric/bccsp/gm"
+	// "github.com/jxu86/fabric-gm/bccsp/utils"
+	"github.com/jxu86/fabric-gm/bccsp/gm"
 	"github.com/pkg/errors"
 	"github.com/tjfoc/gmsm/sm2"
 )

@@ -9,9 +9,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hyperledger/fabric/gossip/election"
+	"github.com/jxu86/fabric-gm/gossip/election"
 
-	"github.com/hyperledger/fabric/gossip/service"
+	"github.com/jxu86/fabric-gm/gossip/service"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"
 )

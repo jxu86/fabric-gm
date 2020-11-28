@@ -21,9 +21,9 @@ import (
 
 	"github.com/pkg/errors"
 	//todo：国密：sm2
-	"github.com/hyperledger/fabric/bccsp"
-	"github.com/hyperledger/fabric/bccsp/factory"
-	// "github.com/hyperledger/fabric/bccsp/utils"
+	"github.com/jxu86/fabric-gm/bccsp"
+	"github.com/jxu86/fabric-gm/bccsp/factory"
+	// "github.com/jxu86/fabric-gm/bccsp/utils"
 	"github.com/tjfoc/gmsm/sm2"
 )
 

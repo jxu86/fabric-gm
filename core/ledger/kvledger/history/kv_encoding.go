@@ -9,7 +9,7 @@ package history
 import (
 	"bytes"
 
-	"github.com/hyperledger/fabric/common/ledger/util"
+	"github.com/jxu86/fabric-gm/common/ledger/util"
 	"github.com/pkg/errors"
 )
 

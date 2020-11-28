@@ -77,12 +77,12 @@ version: 0
 tlsconfig:
   certpath: ""
   keypath: ""
-  peercacertpath: /opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/users/User1@org1.example.com/tls/ca.crt
+  peercacertpath: /opt/gopath/src/github.com/jxu86/fabric-gm/peer/crypto/peerOrganizations/org1.example.com/users/User1@org1.example.com/tls/ca.crt
   timeout: 0s
 signerconfig:
   mspid: Org1MSP
-  identitypath: /opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/users/User1@org1.example.com/msp/signcerts/User1@org1.example.com-cert.pem
-  keypath: /opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/users/User1@org1.example.com/msp/keystore/ea4f6a38ac7057b6fa9502c2f5f39f182e320f71f667749100fe7dd94c23ce43_sk
+  identitypath: /opt/gopath/src/github.com/jxu86/fabric-gm/peer/crypto/peerOrganizations/org1.example.com/users/User1@org1.example.com/msp/signcerts/User1@org1.example.com-cert.pem
+  keypath: /opt/gopath/src/github.com/jxu86/fabric-gm/peer/crypto/peerOrganizations/org1.example.com/users/User1@org1.example.com/msp/keystore/ea4f6a38ac7057b6fa9502c2f5f39f182e320f71f667749100fe7dd94c23ce43_sk
 ```
 
 When the peer runs with TLS enabled, the discovery service on the peer

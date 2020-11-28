@@ -11,7 +11,7 @@ import (
 	"os"
 
 	"github.com/hyperledger/fabric-chaincode-go/shim"
-	"github.com/hyperledger/fabric/integration/lifecycle/chaincode/caller"
+	"github.com/jxu86/fabric-gm/integration/lifecycle/chaincode/caller"
 )
 
 func main() {

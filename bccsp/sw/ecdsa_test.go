@@ -25,7 +25,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/hyperledger/fabric/bccsp/utils"
+	"github.com/jxu86/fabric-gm/bccsp/utils"
 	"github.com/stretchr/testify/assert"
 )
 

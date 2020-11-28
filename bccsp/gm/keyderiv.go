@@ -18,7 +18,7 @@ package gm
 import (
 	"errors"
 
-	"github.com/hyperledger/fabric/bccsp"
+	"github.com/jxu86/fabric-gm/bccsp"
 )
 //todo：国密：增加gm
 //定义国密 Key的驱动 ，实现 KeyDeriver 接口

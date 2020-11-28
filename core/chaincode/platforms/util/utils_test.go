@@ -17,8 +17,8 @@ import (
 	"testing"
 
 	docker "github.com/fsouza/go-dockerclient"
-	"github.com/hyperledger/fabric/common/metadata"
-	"github.com/hyperledger/fabric/core/config/configtest"
+	"github.com/jxu86/fabric-gm/common/metadata"
+	"github.com/jxu86/fabric-gm/core/config/configtest"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"
 )
