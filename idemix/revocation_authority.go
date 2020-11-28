@@ -9,7 +9,7 @@ package idemix
 import (
 	// "crypto/ecdsa"
 	// "crypto/elliptic"
-	"github.com/tjfoc/gmsm/sm2"
+	"github.com/jxu86/gmsm/sm2"
 	"crypto/rand"
 	"crypto/sha256"
 	"encoding/asn1"

@@ -22,7 +22,7 @@ import (
 	"math/big"
 
 	"github.com/jxu86/fabric-gm/bccsp"
-	"github.com/tjfoc/gmsm/sm2"
+	"github.com/jxu86/gmsm/sm2"
 )
 //todo：国密：增加gm
 // //调用SM2接口生成SM2证书

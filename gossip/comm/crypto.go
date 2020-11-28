@@ -11,7 +11,7 @@ import (
 
 	"github.com/jxu86/fabric-gm/common/util"
 	// "google.golang.org/grpc/credentials"
-	credentials "github.com/tjfoc/gmtls/gmcredentials"
+	credentials "github.com/jxu86/gmtls/gmcredentials"
 	"google.golang.org/grpc/peer"
 )
 

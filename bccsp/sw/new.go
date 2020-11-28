@@ -15,7 +15,7 @@ import (
 	"github.com/jxu86/fabric-gm/bccsp"
 	"github.com/pkg/errors"
 	"golang.org/x/crypto/sha3"
-	"github.com/tjfoc/gmsm/sm3"
+	"github.com/jxu86/gmsm/sm3"
 )
 
 // NewDefaultSecurityLevel returns a new instance of the software-based BCCSP

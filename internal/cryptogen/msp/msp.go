@@ -18,7 +18,7 @@ import (
 	"github.com/jxu86/fabric-gm/internal/cryptogen/csp"
 	fabricmsp "github.com/jxu86/fabric-gm/msp"
 	"github.com/pkg/errors"
-	"github.com/tjfoc/gmsm/sm2"
+	"github.com/jxu86/gmsm/sm2"
 	"gopkg.in/yaml.v2"
 )
 

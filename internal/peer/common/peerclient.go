@@ -9,7 +9,7 @@ package common
 import (
 	"context"
 	// "crypto/tls"
-	tls "github.com/tjfoc/gmtls"
+	tls "github.com/jxu86/gmtls"
 	"io/ioutil"
 	"time"
 

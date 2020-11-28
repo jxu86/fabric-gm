@@ -28,8 +28,8 @@ import (
 
 	"github.com/jxu86/fabric-gm/bccsp"
 	"github.com/jxu86/fabric-gm/bccsp/utils"
-	"github.com/tjfoc/gmsm/sm2"
-	"github.com/tjfoc/gmsm/sm4"
+	"github.com/jxu86/gmsm/sm2"
+	"github.com/jxu86/gmsm/sm4"
 )
 //todo：国密：增加gm
 // NewFileBasedKeyStore instantiated a file-based key store at a given position.

@@ -15,7 +15,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Shopify/sarama"
+	"github.com/jxu86/sarama"
 	"github.com/jxu86/fabric-gm/bccsp/factory"
 	"github.com/jxu86/fabric-gm/orderer/mocks/util"
 	"github.com/spf13/viper"

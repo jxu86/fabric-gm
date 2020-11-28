@@ -9,7 +9,7 @@ package msp
 import (
 	"bytes"
 	// "crypto/x509"
-	"github.com/tjfoc/gmsm/sm2"
+	"github.com/jxu86/gmsm/sm2"
 	"crypto/x509/pkix"
 	"fmt"
 	"time"

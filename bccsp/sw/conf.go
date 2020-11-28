@@ -12,7 +12,7 @@ import (
 	"crypto/sha512"
 	"fmt"
 	"hash"
-	"github.com/tjfoc/gmsm/sm3"
+	"github.com/jxu86/gmsm/sm3"
 	"golang.org/x/crypto/sha3"
 )
 

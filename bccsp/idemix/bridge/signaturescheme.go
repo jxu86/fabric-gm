@@ -7,7 +7,7 @@ package bridge
 
 import (
 	// "crypto/ecdsa"
-	"github.com/tjfoc/gmsm/sm2"
+	"github.com/jxu86/gmsm/sm2"
 	"github.com/golang/protobuf/proto"
 	"github.com/hyperledger/fabric-amcl/amcl"
 	"github.com/hyperledger/fabric-amcl/amcl/FP256BN"

@@ -18,9 +18,9 @@ import (
 
 	"github.com/pkg/errors"
 	//todo：国密：sm2 credentials
-	"github.com/tjfoc/gmsm/sm2"
-	// "github.com/tjfoc/gmtls/gmcredentials"
-	// tls "github.com/tjfoc/gmtls"
+	"github.com/jxu86/gmsm/sm2"
+	// "github.com/jxu86/gmtls/gmcredentials"
+	// tls "github.com/jxu86/gmtls"
 )
 
 type ConnectionSource struct {

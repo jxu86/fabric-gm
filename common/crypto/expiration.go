@@ -9,7 +9,7 @@ package crypto
 import (
 	"bytes"
 	// "crypto/x509"
-	"github.com/tjfoc/gmsm/sm2"
+	"github.com/jxu86/gmsm/sm2"
 	"encoding/pem"
 	"time"
 

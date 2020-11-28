@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/hyperledger/fabric-chaincode-go/shim"
+	"github.com/jxu86/fabric-chaincode-go/shim"
 	pb "github.com/hyperledger/fabric-protos-go/peer"
 	"github.com/jxu86/fabric-gm/common/flogging"
 	"github.com/jxu86/fabric-gm/core/aclmgmt"

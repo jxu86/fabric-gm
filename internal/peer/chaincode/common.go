@@ -9,7 +9,7 @@ package chaincode
 import (
 	"context"
 	// "crypto/tls"
-	tls "github.com/tjfoc/gmtls"
+	tls "github.com/jxu86/gmtls"
 	"encoding/json"
 	"fmt"
 	"io/ioutil"
@@ -18,7 +18,7 @@ import (
 	"sync"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric-chaincode-go/shim"
+	"github.com/jxu86/fabric-chaincode-go/shim"
 	pcommon "github.com/hyperledger/fabric-protos-go/common"
 	ab "github.com/hyperledger/fabric-protos-go/orderer"
 	pb "github.com/hyperledger/fabric-protos-go/peer"

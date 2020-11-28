@@ -11,7 +11,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Shopify/sarama"
+	"github.com/jxu86/sarama"
 	bccsp "github.com/jxu86/fabric-gm/bccsp/factory"
 	"github.com/jxu86/fabric-gm/common/flogging"
 	"github.com/jxu86/fabric-gm/common/viperutil"

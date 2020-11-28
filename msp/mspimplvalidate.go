@@ -11,7 +11,7 @@ import (
 	// "crypto/x509"
 	"crypto/x509/pkix"
 	"encoding/asn1"
-	"github.com/tjfoc/gmsm/sm2"
+	"github.com/jxu86/gmsm/sm2"
 	"math/big"
 	"reflect"
 	"time"

@@ -3,7 +3,7 @@ package mock
 
 import (
 	// "crypto/ecdsa"
-	"github.com/tjfoc/gmsm/sm2"
+	"github.com/jxu86/gmsm/sm2"
 	"sync"
 
 	"github.com/jxu86/fabric-gm/bccsp"

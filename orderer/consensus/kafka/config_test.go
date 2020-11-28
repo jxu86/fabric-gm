@@ -10,7 +10,7 @@ import (
 	"crypto/tls"
 	"testing"
 
-	"github.com/Shopify/sarama"
+	"github.com/jxu86/sarama"
 	localconfig "github.com/jxu86/fabric-gm/orderer/common/localconfig"
 	"github.com/jxu86/fabric-gm/orderer/mocks/util"
 	"github.com/stretchr/testify/assert"

@@ -16,7 +16,7 @@ limitations under the License.
 
 package utils
 
-import "github.com/tjfoc/gmsm/sm2"
+import "github.com/jxu86/gmsm/sm2"
 //todo：国密：增加gm
 // DERToSM2Certificate converts der to sm2
 func DERToSM2Certificate(asn1Data []byte) (*sm2.Certificate, error) {

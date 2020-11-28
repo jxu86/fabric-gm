@@ -9,10 +9,10 @@ package comm
 import (
 	"context"
 
-	"github.com/tjfoc/gmsm/sm2"
+	"github.com/jxu86/gmsm/sm2"
 
-	// credentials "github.com/tjfoc/gmtls/gmcredentials"
-	tls "github.com/tjfoc/gmtls"
+	// credentials "github.com/jxu86/gmtls/gmcredentials"
+	tls "github.com/jxu86/gmtls"
 	// "crypto/tls"
 	// "crypto/x509"
 	"time"

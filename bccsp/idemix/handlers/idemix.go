@@ -8,7 +8,7 @@ package handlers
 import (
 	// "crypto/ecdsa"
 	"github.com/jxu86/fabric-gm/bccsp"
-	"github.com/tjfoc/gmsm/sm2"
+	"github.com/jxu86/gmsm/sm2"
 )
 
 // IssuerPublicKey is the issuer public key

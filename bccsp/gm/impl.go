@@ -24,7 +24,7 @@ import (
 	"github.com/jxu86/fabric-gm/bccsp"
 	"github.com/jxu86/fabric-gm/common/flogging"
 	"github.com/pkg/errors"
-	"github.com/tjfoc/gmsm/sm3"
+	"github.com/jxu86/gmsm/sm3"
 	"golang.org/x/crypto/sha3"
 )
 //todo：国密：增加gm

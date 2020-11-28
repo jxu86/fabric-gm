@@ -27,7 +27,7 @@ import (
 	"errors"
 	"fmt"
 	//todo：国密：增加sm2
-	"github.com/tjfoc/gmsm/sm2"
+	"github.com/jxu86/gmsm/sm2"
 )
 
 // struct to hold info required for PKCS#8

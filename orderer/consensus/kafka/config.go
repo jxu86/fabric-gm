@@ -9,10 +9,10 @@ package kafka
 import (
 	// "crypto/tls"
 	// "crypto/x509"
-	"github.com/Shopify/sarama"
+	"github.com/jxu86/sarama"
 	localconfig "github.com/jxu86/fabric-gm/orderer/common/localconfig"
-	"github.com/tjfoc/gmsm/sm2"
-	tls "github.com/tjfoc/gmtls"
+	"github.com/jxu86/gmsm/sm2"
+	tls "github.com/jxu86/gmtls"
 
 	
 )

@@ -20,7 +20,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/tjfoc/gmsm/sm2"
+	"github.com/jxu86/gmsm/sm2"
 
 	"github.com/golang/protobuf/proto"
 	"github.com/jxu86/fabric-gm/common/tools/idemixgen/idemixca"

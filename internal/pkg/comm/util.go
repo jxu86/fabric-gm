@@ -18,8 +18,8 @@ import (
 	"github.com/pkg/errors"
 	// "google.golang.org/grpc/credentials"
 	"google.golang.org/grpc/peer"
-	"github.com/tjfoc/gmsm/sm2"
-	credentials "github.com/tjfoc/gmtls/gmcredentials"
+	"github.com/jxu86/gmsm/sm2"
+	credentials "github.com/jxu86/gmtls/gmcredentials"
 )
 
 // AddPemToCertPool adds PEM-encoded certs to a cert pool

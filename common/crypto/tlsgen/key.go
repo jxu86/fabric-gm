@@ -19,7 +19,7 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	"github.com/tjfoc/gmsm/sm2"
+	"github.com/jxu86/gmsm/sm2"
 )
 
 func newPrivKey() (*sm2.PrivateKey, []byte, error) {

@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"hash"
 
-	"github.com/tjfoc/gmsm/sm3"
+	"github.com/jxu86/gmsm/sm3"
 )
 
 //todo：国密：增加gm

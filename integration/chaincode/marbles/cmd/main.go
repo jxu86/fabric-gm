@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/hyperledger/fabric-chaincode-go/shim"
+	"github.com/jxu86/fabric-chaincode-go/shim"
 	"github.com/jxu86/fabric-gm/integration/chaincode/marbles"
 )
 

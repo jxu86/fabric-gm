@@ -20,8 +20,8 @@ import (
 	"sync"
 
 	"github.com/jxu86/fabric-gm/bccsp"
-	"github.com/tjfoc/gmsm/sm2"
-	"github.com/tjfoc/gmsm/sm4"
+	"github.com/jxu86/gmsm/sm2"
+	"github.com/jxu86/gmsm/sm4"
 )
 
 // NewFileBasedKeyStore instantiated a file-based key store at a given position.

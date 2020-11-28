@@ -10,7 +10,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hyperledger/fabric-chaincode-go/shim"
+	"github.com/jxu86/fabric-chaincode-go/shim"
 	"github.com/jxu86/fabric-gm/common/channelconfig"
 	commonledger "github.com/jxu86/fabric-gm/common/ledger"
 	"github.com/jxu86/fabric-gm/common/policies"

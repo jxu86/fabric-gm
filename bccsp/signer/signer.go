@@ -13,7 +13,7 @@ import (
 
 	"github.com/jxu86/fabric-gm/bccsp"
 	"github.com/pkg/errors"
-	"github.com/tjfoc/gmsm/sm2"
+	"github.com/jxu86/gmsm/sm2"
 
 )
 

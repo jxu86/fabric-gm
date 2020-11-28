@@ -9,7 +9,7 @@ package lscc_test
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric-chaincode-go/shim"
+	"github.com/jxu86/fabric-chaincode-go/shim"
 	commonledger "github.com/jxu86/fabric-gm/common/ledger"
 	"github.com/jxu86/fabric-gm/core/common/ccprovider"
 	"github.com/jxu86/fabric-gm/core/common/sysccprovider"

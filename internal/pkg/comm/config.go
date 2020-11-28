@@ -9,8 +9,8 @@ package comm
 import (
 	// "crypto/tls"
 	// "crypto/x509"
-	"github.com/tjfoc/gmsm/sm2"
-	tls "github.com/tjfoc/gmtls"
+	"github.com/jxu86/gmsm/sm2"
+	tls "github.com/jxu86/gmtls"
 	"time"
 
 	"github.com/jxu86/fabric-gm/common/flogging"

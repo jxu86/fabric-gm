@@ -13,7 +13,7 @@ import (
 	"errors"
 	"fmt"
 	"math/big"
-	"github.com/tjfoc/gmsm/sm2"
+	"github.com/jxu86/gmsm/sm2"
 )
 
 type ECDSASignature struct {

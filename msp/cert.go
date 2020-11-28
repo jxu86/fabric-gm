@@ -31,7 +31,7 @@ import (
 	// "github.com/jxu86/fabric-gm/bccsp/utils"
 	"github.com/jxu86/fabric-gm/bccsp/gm"
 	"github.com/pkg/errors"
-	"github.com/tjfoc/gmsm/sm2"
+	"github.com/jxu86/gmsm/sm2"
 )
 
 type validity struct {
